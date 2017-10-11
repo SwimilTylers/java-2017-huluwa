@@ -1,11 +1,12 @@
 package character.hero;
 
+import character.Beings;
 import utils.HLW_COLOR;
 import utils.HLW_SENIORITY;
-import utils.Position;
+import utils.position.*;
 
-abstract public class Huluwa {
-        private Position where;
+abstract public class Huluwa extends Beings{
+
 
     static private int TotalBrother = 0;
 
@@ -15,28 +16,6 @@ abstract public class Huluwa {
 
     final public int TellBrotherNumber(){
         return TotalBrother;
-    }
-
-    final public void JumpTO(Position toPosition){
-        if(toPosition == null)  throw null;
-        if(where != null) {
-            if (where.ConsistencyCheck(this))
-                where.checkout();
-            else
-                throw null;
-        }
-        where = toPosition;
-    }
-
-    final public Position JumpOut(){
-        Position fromPosition = where;
-        if(where != null && !where.ConsistencyCheck(this))  throw null;
-        where = null;
-        return fromPosition;
-    }
-
-    final public Position TellPosition(){
-        return where;
     }
 
     abstract public String TellMyName();
@@ -68,9 +47,9 @@ abstract public class Huluwa {
         Position position = new Position(1, 1);
 
         position.checkin(tested);
-        System.out.println("Position " + tested.TellPosition());
+        System.out.println("BasePosition " + tested.TellBasePosition());
 
         position.checkout();
-        System.out.println("Position " + position);
+        System.out.println("BasePosition " + position);
     }
 }

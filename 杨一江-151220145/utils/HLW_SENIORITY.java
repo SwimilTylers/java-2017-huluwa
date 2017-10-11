@@ -25,4 +25,12 @@ public enum HLW_SENIORITY {
         if(greater == null || smaller == null)  throw null;
         return greater.prior < smaller.prior;
     }
+
+    final static public boolean isSmaller(HLW_SENIORITY smaller, HLW_SENIORITY greater){
+        return isGreater(greater, smaller);
+    }
+
+    final static public boolean isEqual(HLW_SENIORITY cmp_1, HLW_SENIORITY cmp_2){
+        return !isGreater(cmp_1, cmp_2) && !isSmaller(cmp_1, cmp_2);
+    }
 }
