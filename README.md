@@ -3,7 +3,7 @@ One Java Project for Java-Programming, 2017f of NJU.
  
 A simulation of Huluwa, Description for detailed infomation.
 
-Designed and coded by _Swimiltylers_, a NJU undergraduate-to-be.
+Designed and coded by _Swimiltylers_, an NJU undergraduate-to-be.
 
 If you are interested, please e-mail me.
 

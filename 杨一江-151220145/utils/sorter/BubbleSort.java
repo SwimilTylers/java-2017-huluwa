@@ -1,5 +1,6 @@
 package utils.sorter;
 
+import character.Beings;
 import character.hero.Huluwa;
 import utils.HLW_COLOR;
 import utils.HLW_SENIORITY;
@@ -12,7 +13,7 @@ public class BubbleSort implements Sorter {
         for(int i = 0; i < array.length - 1; i++){
             for(int j = 0; j < array.length - i - 1; j++){
                 if (ComparingInterface.isBackward(cmpInterface, array[j], array[j+1])){
-                    BasePosition.Swap(array[j], array[j+1]);
+                    Beings.ExchangeOurPosition(array[j].getContent(), array[j+1].getContent());
                 }
             }
         }
@@ -68,6 +69,9 @@ public class BubbleSort implements Sorter {
             public HLW_SENIORITY TellMySeniority() {
                 return HLW_SENIORITY.FIRST;
             }
+
+            @Override
+            protected void AfterMeetingBeings() {throw null;}
         };
         huluwas[2] = new Huluwa() {
             @Override
@@ -84,6 +88,9 @@ public class BubbleSort implements Sorter {
             public HLW_SENIORITY TellMySeniority() {
                 return HLW_SENIORITY.SECOND;
             }
+
+            @Override
+            protected void AfterMeetingBeings() {throw null;}
         };
         huluwas[6] = new Huluwa() {
             @Override
@@ -100,6 +107,9 @@ public class BubbleSort implements Sorter {
             public HLW_SENIORITY TellMySeniority() {
                 return HLW_SENIORITY.THIRD;
             }
+
+            @Override
+            protected void AfterMeetingBeings() {throw null;}
         };
         huluwas[1] = new Huluwa() {
             @Override
@@ -116,6 +126,9 @@ public class BubbleSort implements Sorter {
             public HLW_SENIORITY TellMySeniority() {
                 return HLW_SENIORITY.FOURTH;
             }
+
+            @Override
+            protected void AfterMeetingBeings() {throw null;}
         };
         huluwas[4] = new Huluwa() {
             @Override
@@ -132,6 +145,9 @@ public class BubbleSort implements Sorter {
             public HLW_SENIORITY TellMySeniority() {
                 return HLW_SENIORITY.FIFTH;
             }
+
+            @Override
+            protected void AfterMeetingBeings() {throw null;}
         };
         huluwas[0] = new Huluwa() {
             @Override
@@ -148,6 +164,9 @@ public class BubbleSort implements Sorter {
             public HLW_SENIORITY TellMySeniority() {
                 return HLW_SENIORITY.SIXTH;
             }
+
+            @Override
+            protected void AfterMeetingBeings() {throw null;}
         };
         huluwas[3] = new Huluwa() {
             @Override
@@ -164,6 +183,9 @@ public class BubbleSort implements Sorter {
             public HLW_SENIORITY TellMySeniority() {
                 return HLW_SENIORITY.SEVENTH;
             }
+
+            @Override
+            protected void AfterMeetingBeings() {throw null;}
         };
 
         for (int i = 0; i < array.length; i++) {
@@ -172,7 +194,7 @@ public class BubbleSort implements Sorter {
 
         Sorter sorter = new BubbleSort();
 
-        sorter.Sort(array, BasePosition.ColorSorting_r2p);
+        sorter.Sort(array, Huluwa.ColorSorting_r2p);
 
         for (Position i:array
              ) {

@@ -1,23 +1,20 @@
 package utils.position;
 
-import utils.COORD;
+import utils.coordinate._2Coordinate;
 
 public class Position extends BasePosition{
     public Position(double x, double y){
         super(2);
-        coord[COORD.X.d()] = x;
-        coord[COORD.Y.d()] = y;
+        coord = new _2Coordinate(x, y);
     }
-
 
 
     @Override
     public String toString(){
         if(content == null)
-            return "[" + coord[COORD.X.d()] + "," + coord[COORD.Y.d()] + "] {empty}";
+            return coord + " {empty}";
         else
-            return "[" + coord[COORD.X.d()] + "," + coord[COORD.Y.d()] + "] {"
-                    + content.TellMyName() + "}";
+            return coord + " {" + content.TellMyName() + "}";
     }
 
 
