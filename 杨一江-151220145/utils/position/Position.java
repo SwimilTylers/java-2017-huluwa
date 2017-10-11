@@ -1,11 +1,12 @@
 package utils;
 
 import character.hero.Huluwa;
+import utils.sorter.ComparingInterface;
 
 public class Position {
-    double[] coord;
-    final int dimension = 2;
-    Huluwa content;
+    private double[] coord;
+    private final int dimension = 2;
+    private Huluwa content;
 
     public Position(double x, double y){
         coord = new double[dimension];
@@ -60,4 +61,35 @@ public class Position {
             return "[" + coord[COORD.X.d()] + "," + coord[COORD.Y.d()] + "] {"
                     + content.TellMyName() + " " + content.TellMyColor() + " " + content.TellMySeniority() + "}";
     }
+
+    final public ComparingInterface ColorSorting_r2p = new ComparingInterface(content) {
+        @Override
+        public boolean _isGreater(Object cmp){
+            throw null;
+        }
+
+        @Override
+        public boolean _isSmaller(Object cmp){
+            throw null;
+        }
+
+        @Override
+        public boolean _isEqual(Object cmp){
+            throw null;
+        }
+
+        @Override
+        public boolean _isForward(Object _cmp){
+            Huluwa base = (Huluwa)getEgo();
+            Huluwa cmp = (Huluwa)_cmp;
+            return HLW_COLOR.isGreater(base.TellMyColor(), cmp.TellMyColor());
+        }
+
+        @Override
+        public boolean _isBackward(Object _cmp){
+            Huluwa base = (Huluwa)getEgo();
+            Huluwa cmp = (Huluwa)_cmp;
+            return HLW_COLOR.isSmaller(base.TellMyColor(), cmp.TellMyColor());
+        }
+    };
 }
