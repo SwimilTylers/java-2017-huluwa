@@ -54,46 +54,60 @@ public class BasePosition {
         return null;
     }
 
-    final private ComparingInterface ColorSorting_r2p = new ComparingInterface() {
+    public Beings getContent() {
+        return content;
+    }
+
+    static public void Swap(BasePosition bp_1, BasePosition bp_2){
+        Beings temp = bp_1.content;
+        bp_1.content = bp_2.content;
+        bp_2.content = temp;
+    }
+
+    static final public ComparingInterface ColorSorting_r2p = new ColorSorting() {
         @Override
-        public boolean _isGreater(Object cmp){
-            throw null;
+        public boolean _isForward(Object cmp){
+            return _isGreater(cmp);
         }
 
         @Override
-        public boolean _isSmaller(Object cmp){
-            throw null;
+        public boolean _isBackward(Object cmp){
+            return _isSmaller(cmp);
         }
 
         @Override
-        public boolean _isEqual(Object cmp){
-            throw null;
-        }
-
-        @Override
-        public boolean _isForward(Object _cmp){
-            Huluwa base = (Huluwa)getEgo();
-            Huluwa cmp = (Huluwa)_cmp;
-            return HLW_COLOR.isGreater(base.TellMyColor(), cmp.TellMyColor());
-        }
-
-        @Override
-        public boolean _isBackward(Object _cmp){
-            Huluwa base = (Huluwa)getEgo();
-            Huluwa cmp = (Huluwa)_cmp;
-            return HLW_COLOR.isSmaller(base.TellMyColor(), cmp.TellMyColor());
-        }
-
-        @Override
-        public boolean _isStill(Object _cmp){
-            Huluwa base = (Huluwa)getEgo();
-            Huluwa cmp = (Huluwa)_cmp;
-            return HLW_COLOR.isEqual(base.TellMyColor(), cmp.TellMyColor());
+        public boolean _isStill(Object cmp){
+            return _isEqual(cmp);
         }
     };
+}
 
-    final public ComparingInterface ColorSorting_r2p(){
-        ColorSorting_r2p.setEgo(content);
-        return ColorSorting_r2p;
+abstract class ColorSorting extends ComparingInterface{
+    @Override
+    public boolean _isGreater(Object _cmp){
+        BasePosition base = (BasePosition)getEgo();
+        BasePosition cmp = (BasePosition)_cmp;
+        return HLW_COLOR.isGreater(((Huluwa)base.getContent()).TellMyColor(),
+                ((Huluwa)cmp.getContent()).TellMyColor());
     }
+
+    @Override
+    public boolean _isSmaller(Object _cmp){
+        BasePosition base = (BasePosition)getEgo();
+        BasePosition cmp = (BasePosition)_cmp;
+        return HLW_COLOR.isSmaller(((Huluwa)base.getContent()).TellMyColor(),
+                ((Huluwa)cmp.getContent()).TellMyColor());
+    }
+
+    @Override
+    public boolean _isEqual(Object _cmp){
+        BasePosition base = (BasePosition)getEgo();
+        BasePosition cmp = (BasePosition)_cmp;
+        return HLW_COLOR.isEqual(((Huluwa)base.getContent()).TellMyColor(),
+                ((Huluwa)cmp.getContent()).TellMyColor());
+    }
+
+    abstract public boolean _isForward(Object cmp);
+    abstract public boolean _isBackward(Object cmp);
+    abstract public boolean _isStill(Object cmp);
 }
