@@ -42,6 +42,7 @@ public class BubbleSort implements Sorter {
     }
 
     public static void main(String[] argv){
+        /*
         Position[] array = new Position[7];
 
         array[0] = new Position(0, 0);
@@ -200,5 +201,6 @@ public class BubbleSort implements Sorter {
              ) {
             System.out.println(i);
         }
+        */
     }
 }

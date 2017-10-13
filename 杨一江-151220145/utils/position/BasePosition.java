@@ -36,7 +36,6 @@ public class BasePosition {
         if(isOccupied())
             return false;
         else{
-            standin.JumpTO(this);
             content = standin;
             return true;
         }

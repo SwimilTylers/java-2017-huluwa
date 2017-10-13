@@ -12,7 +12,7 @@ public class Position extends BasePosition{
     @Override
     public String toString(){
         if(content == null)
-            return coord + " {empty}";
+            return coord + "{empty} ";
         else
             return coord + " {" + content.TellMyName() + "}";
     }

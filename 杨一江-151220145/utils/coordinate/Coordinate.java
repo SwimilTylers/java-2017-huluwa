@@ -34,10 +34,9 @@ public class Coordinate {
 
     @Override
     public String toString(){
-        String ret = "(" + tensors[0];
-        for (double i: tensors
-             ) {
-            ret += ("," + i);
+        String ret = "(" + tensors[tensors.length - 1];
+        for (int i = tensors.length - 2; i >= 0 ; i--) {
+            ret += ("," + tensors[i]);
         }
         ret += ")";
         return ret;

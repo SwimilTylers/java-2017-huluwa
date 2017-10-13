@@ -1,7 +1,10 @@
 package platform;
 
 import character.Beings;
+import character.hero.Huluwa;
 import utils.COORD;
+import utils.HLW_COLOR;
+import utils.HLW_SENIORITY;
 import utils.coordinate._2Coordinate;
 import utils.position.Position;
 
@@ -29,15 +32,20 @@ public class Plate {
         }
     }
 
-    static public void CreateRegion(Plate land, _2Coordinate granularity, _2Coordinate start,
+    static public Plate CreateRegion(_2Coordinate granularity, _2Coordinate start,
                                     int XNum, int YNum, Beings... Characters){
-        land = new Plate(granularity, start, XNum, YNum);
+        Plate land = new Plate(granularity, start, XNum, YNum);
         for (Beings creature:Characters
              ) {
             Position respond = land.BirthplaceSection(creature.TellMyBirthplace());
             if(respond == null)  break;
             creature.Birth(respond);
         }
+        return land;
+    }
+
+    static public Plate CreateRegion(PlateSettings Settings, Beings... Characters){
+        return CreateRegion(Settings.granularity(), Settings.start(), Settings.XNum(), Settings.YNum(),Characters);
     }
 
     public Position Location(_2Coordinate coord){
@@ -56,4 +64,88 @@ public class Plate {
         if(temp.isOccupied())   throw null;
         else    return temp;
     }
+
+    @Override
+    public String toString(){
+        String ret = new String();
+        for (Position[] row:Map
+             ) {
+            String rowString = new String();
+            for (Position col:row
+                 ) {
+                rowString += col.toString();
+            }
+            ret += (rowString + "\n");
+        }
+        return ret;
+    }
+
+    public String MakeEveryoneResponse(){
+        String ret = new String();
+        for (Position[] row:Map
+                ) {
+            String rowString = new String();
+            for (Position col:row
+                    ) {
+                if(col.isOccupied())
+                    rowString += col.getContent().TellMyName();
+                else
+                    rowString += "{..}";
+            }
+            ret += (rowString + "\n");
+        }
+        return ret;
+    }
+
+    public static void main(String[] argv){
+        Plate world = Plate.CreateRegion(PlateSettings.Regularized, new Huluwa(new _2Coordinate(2,2)) {
+            @Override
+            public String TellMyName() {
+                return "大娃";
+            }
+
+            @Override
+            public HLW_COLOR TellMyColor() {
+                return HLW_COLOR.RED;
+            }
+
+            @Override
+            public HLW_SENIORITY TellMySeniority() {
+                return HLW_SENIORITY.FIRST;
+            }
+
+            @Override
+            protected void AfterMeetingBeings() {throw null;}
+        });
+        System.out.println(world.MakeEveryoneResponse());
+    }
+}
+
+interface PlateSettings{
+    _2Coordinate granularity();
+    _2Coordinate start();
+    int XNum();
+    int YNum();
+
+    PlateSettings Regularized = new PlateSettings() {
+        @Override
+        public _2Coordinate granularity() {
+            return _2Coordinate.Regularized_Scale;
+        }
+
+        @Override
+        public _2Coordinate start() {
+            return _2Coordinate.Origin;
+        }
+
+        @Override
+        public int XNum() {
+            return 10;
+        }
+
+        @Override
+        public int YNum() {
+            return 10;
+        }
+    };
 }

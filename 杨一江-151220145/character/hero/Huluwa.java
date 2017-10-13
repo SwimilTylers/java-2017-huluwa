@@ -3,6 +3,7 @@ package character.hero;
 import character.Beings;
 import utils.HLW_COLOR;
 import utils.HLW_SENIORITY;
+import utils.coordinate._2Coordinate;
 import utils.position.*;
 import utils.sorter.ComparingInterface;
 
@@ -11,7 +12,8 @@ abstract public class Huluwa extends Beings{
 
     static private int TotalBrother = 0;
 
-    public Huluwa(){
+    public Huluwa(_2Coordinate birthplace){
+        super(birthplace);
         TotalBrother++;
     }
 
@@ -42,7 +44,7 @@ abstract public class Huluwa extends Beings{
     abstract protected void AfterMeetingBeings();
 
     static public void main(String[] argv){
-        Huluwa tested = new Huluwa() {
+        Huluwa tested = new Huluwa(new _2Coordinate(0,0)) {
             @Override
             public String TellMyName() {
                 return "tested";

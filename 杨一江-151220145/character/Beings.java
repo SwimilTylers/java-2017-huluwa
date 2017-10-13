@@ -7,6 +7,10 @@ abstract public class Beings {
     private BasePosition where;
     private _2Coordinate birthplace;
 
+    public Beings(_2Coordinate birthplace){
+        ChangeBirthplace(birthplace);
+    }
+
     final public void ChangeBirthplace(_2Coordinate wt){
         birthplace = wt;
     }
@@ -38,6 +42,7 @@ abstract public class Beings {
             else
                 throw null;
         }
+        toBasePosition.checkin(this);
         where = toBasePosition;
     }
 
