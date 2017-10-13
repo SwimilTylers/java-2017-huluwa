@@ -1,11 +1,15 @@
 package character;
 
 import utils.coordinate._2Coordinate;
+import utils.layout.Layout;
 import utils.position.BasePosition;
+
+import java.util.Random;
 
 abstract public class Beings {
     private BasePosition where;
     private _2Coordinate birthplace;
+//    private ArrayList<Beings> Friends;
 
     public Beings(_2Coordinate birthplace){
         ChangeBirthplace(birthplace);
@@ -62,6 +66,37 @@ abstract public class Beings {
         a.JumpTO(temp);
     }
 
+    protected boolean FindMyPlaceInLayout(Layout layout){
+        if(layout == null)  return false;
+        if(!layout.isAvailable())   return false;
+        while (true){
+            int favor = new Random().nextInt(layout.length);
+            if(!layout.nodes[favor].isOccupied()){
+                JumpOut();
+                JumpTO(layout.nodes[favor]);
+                return true;
+            }
+        }
+    }
+
+/*
+    final public void Makefriends(Beings... Friends){
+        for (Beings i:Friends
+             ) {
+            this.Friends.add(i);
+        }
+    }
+
+    final public boolean isMyFriends(Beings Friend){
+        for (Beings i:Friends
+             ) {
+            if(i == Friend)
+                return true;
+        }
+        return false;
+    }
+*/
     abstract public String TellMyName();
     abstract protected void AfterMeetingBeings();
+    abstract public boolean isHero(); // A Being can portend to be a good guy
 }

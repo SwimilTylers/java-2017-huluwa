@@ -4,12 +4,14 @@ import character.Beings;
 import character.hero.Huluwa;
 import utils.HLW_COLOR;
 import utils.HLW_SENIORITY;
+import utils.layout.Layout;
 import utils.position.BasePosition;
 import utils.position.Position;
 
 public class BubbleSort implements Sorter {
     @Override
-    public void Sort(BasePosition[] array, ComparingInterface cmpInterface){
+    public void Sort(Layout nodes, ComparingInterface cmpInterface){
+        BasePosition[] array = nodes.getOccupiedNodes();
         for(int i = 0; i < array.length - 1; i++){
             for(int j = 0; j < array.length - i - 1; j++){
                 if (ComparingInterface.isBackward(cmpInterface, array[j], array[j+1])){
@@ -20,24 +22,26 @@ public class BubbleSort implements Sorter {
     }
 
     @Override
-    public BasePosition sHead(BasePosition[] array, ComparingInterface cmpInterface){
-        Sort(array, cmpInterface);
-        return array[0];
+    public BasePosition sHead(Layout array, ComparingInterface cmpInterface){
+        //Sort(array, cmpInterface);
+        //return array[0];
+        return null;
     }
 
     @Override
-    public BasePosition sTail(BasePosition[] array, ComparingInterface cmpInterface){
-        Sort(array, cmpInterface);
-        return array[array.length - 1];
+    public BasePosition sTail(Layout array, ComparingInterface cmpInterface){
+        //Sort(array, cmpInterface);
+        //return array[array.length - 1];
+        return null;
     }
 
     @Override
-    public BasePosition sCar(BasePosition[] array, ComparingInterface cmpInterface){
+    public BasePosition sCar(Layout array, ComparingInterface cmpInterface){
         return sHead(array, cmpInterface);
     }
 
     @Override
-    public BasePosition[] sCdr(BasePosition[] array, ComparingInterface cmpInterface){
+    public BasePosition[] sCdr(Layout array, ComparingInterface cmpInterface){
         throw null;
     }
 

@@ -5,10 +5,13 @@ import character.hero.Huluwa;
 import utils.COORD;
 import utils.HLW_COLOR;
 import utils.HLW_SENIORITY;
+import utils.coordinate.Coordinate;
 import utils.coordinate._2Coordinate;
+import utils.layout.Layout;
+import utils.layout.LayoutManip;
 import utils.position.Position;
 
-public class Plate {
+public class Plate extends PlatformBrowser implements LayoutManip{
     final static public int dimensionality = 2;
     final private _2Coordinate granularity;
     final private _2Coordinate start;
@@ -48,7 +51,9 @@ public class Plate {
         return CreateRegion(Settings.granularity(), Settings.start(), Settings.XNum(), Settings.YNum(),Characters);
     }
 
-    public Position Location(_2Coordinate coord){
+    @Override
+    public Position Location(Coordinate _coord){
+        _2Coordinate coord = (_2Coordinate)_coord;
         int[] idx = {0, 0};
         idx[0] = (int)((coord.Y() - start.Y())/granularity.Y());
         idx[1] = (int)((coord.X() - start.X())/granularity.X());
@@ -57,6 +62,15 @@ public class Plate {
                 || idx[1] < 0 || idx[1] >= size[COORD.X.d()])
             return null;
         return Map[idx[0]][idx[1]];
+    }
+
+    @Override
+    public Position[] Location(Coordinate[] _coord){
+        Position[] ret = new Position[_coord.length];
+        for (int i = 0; i < _coord.length; i++) {
+            ret[i] = Location(_coord[i]);
+        }
+        return ret;
     }
 
     private Position BirthplaceSection(_2Coordinate coord){
@@ -95,6 +109,31 @@ public class Plate {
             ret += (rowString + "\n");
         }
         return ret;
+    }
+
+    @Override
+    public Layout CentroSymmetry(Layout orig){
+        return null;
+    }
+
+    @Override
+    public Layout InversionSymmetry(Layout orig){
+        return null;
+    }
+
+    @Override
+    public Layout ReversionSymmetry(Layout orig){
+        return null;
+    }
+
+    @Override
+    public Layout Combination(Layout... origs){
+        return null;
+    }
+
+    @Override
+    public Layout Intersection(Layout... origs){
+        return null;
     }
 
     public static void main(String[] argv){
