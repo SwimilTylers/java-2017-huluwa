@@ -94,6 +94,7 @@ abstract public class Huluwa extends Subordinate{
     abstract public HLW_SENIORITY TellMySeniority();
     abstract protected void AfterMeetingBeings();
 
+    /*
     static public void main(String[] argv){
         Huluwa tested = new Huluwa(new _2Coordinate(0,0)) {
             @Override
@@ -127,6 +128,7 @@ abstract public class Huluwa extends Subordinate{
         position.checkout();
         System.out.println("BasePosition " + position);
     }
+    */
 }
 
 abstract class ColorSorting extends ComparingInterface {

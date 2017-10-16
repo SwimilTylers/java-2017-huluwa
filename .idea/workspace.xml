@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5859db1-6665-4cd5-874d-1f817241346a" name="Default" comment="Introduce Layout, a sequential order of points in the Platform&#10;Beings should choose its position according to the Layout&#10;Sorter should sort according to the Layout and its order&#10;Platform should implement LayoutManip">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/杨一江-151220145/utils/layout/LayoutBrief.java" />
+    <list default="true" id="e5859db1-6665-4cd5-874d-1f817241346a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/杨一江-151220145/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/Beings.java" afterPath="$PROJECT_DIR$/杨一江-151220145/character/Beings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java" afterPath="$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java" afterPath="$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/villain/Subs/Minion.java" afterPath="$PROJECT_DIR$/杨一江-151220145/character/villain/Subs/Minion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/README.md" afterPath="$PROJECT_DIR$/杨一江-151220145/character/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java" afterPath="$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/platform/Plate.java" afterPath="$PROJECT_DIR$/杨一江-151220145/platform/Plate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/utils/layout/Layout.java" afterPath="$PROJECT_DIR$/杨一江-151220145/utils/layout/Layout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java" afterPath="$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java" />
     </list>
     <list id="58c89a59-db51-4166-bd14-52540215ce1c" name="Revert &quot;Build HLW_COLOR, HLW_SENIORITY &amp; COORD&quot; This reverts commit b569af6" comment="Revert &quot;Build HLW_COLOR, HLW_SENIORITY &amp; COORD&quot;&#10;&#10;This reverts commit b569af6" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Plate.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Plate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/Plate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+            <state relative-caret-position="684">
+              <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,28 +33,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Layout.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/layout/Layout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serpent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/杨一江-151220145/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="126">
+                <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -99,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/杨一江-151220145/utils/Positon.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/utils/COORD.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/HLW_COMPARABLE.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/Queue.java" />
@@ -108,7 +93,6 @@
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/HLW_SENIORITY.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/sorter/Compare.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/Position.java" />
-        <option value="$PROJECT_DIR$/杨一江-151220145/character/README.md" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/sorter/ComparingInterface.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/position/Coordinate.java" />
@@ -137,8 +121,6 @@
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/coordinate/_2Coordinate.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/PlatformBrowser.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/sorter/Sorter.java" />
-        <option value="$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/character/villain/Subs/Scorpion.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/layout/LayoutManip.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/character/Subordinate.java" />
@@ -148,8 +130,12 @@
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/layout/Layout.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/character/Beings.java" />
-        <option value="$PROJECT_DIR$/杨一江-151220145/platform/Plate.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java" />
+        <option value="$PROJECT_DIR$/杨一江-151220145/character/README.md" />
+        <option value="$PROJECT_DIR$/杨一江-151220145/platform/Plate.java" />
+        <option value="$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java" />
+        <option value="$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/杨一江-151220145/README.md" />
       </list>
     </option>
   </component>
@@ -211,23 +197,7 @@
               <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
               <item name="杨一江-151220145" type="462c0819:PsiDirectoryNode" />
               <item name="character" type="462c0819:PsiDirectoryNode" />
-              <item name="hero" type="462c0819:PsiDirectoryNode" />
-              <item name="Huluwa.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
-              <item name="杨一江-151220145" type="462c0819:PsiDirectoryNode" />
-              <item name="character" type="462c0819:PsiDirectoryNode" />
               <item name="villain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
-              <item name="杨一江-151220145" type="462c0819:PsiDirectoryNode" />
-              <item name="character" type="462c0819:PsiDirectoryNode" />
-              <item name="villain" type="462c0819:PsiDirectoryNode" />
-              <item name="Subs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
@@ -253,27 +223,6 @@
               <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
               <item name="杨一江-151220145" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="coordinate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
-              <item name="杨一江-151220145" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
-              <item name="杨一江-151220145" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="position" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
-              <item name="杨一江-151220145" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
               <item name="sorter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -289,6 +238,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="coord&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/ext/jfxrt.jar!/com/sun/prism/image/Coords.class" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java Programming\Projects\java-2017-huluwa" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -472,7 +426,7 @@
       <workItem from="1507722959531" duration="18037000" />
       <workItem from="1507755782501" duration="9716000" />
       <workItem from="1507873257216" duration="19742000" />
-      <workItem from="1508119921282" duration="15273000" />
+      <workItem from="1508119921282" duration="22451000" />
     </task>
     <task id="LOCAL-00001" summary="Build HLW_COLOR, HLW_SENIORITY &amp; COORD">
       <created>1507636107048</created>
@@ -530,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507892900646</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finish Stage Three:&#10; 1. Layout &amp; Attachments&#10; 2. Sorter integrated into Grandpa and Serpent&#10; 3. Grandpa and Serpent control corresponding subordinates">
+      <created>1508157317859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508157317859</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78308000" />
+    <option name="totallyTimeSpent" value="85486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,7 +580,8 @@
     <MESSAGE value="Add Plate, Coordinate" />
     <MESSAGE value="Framework of Plate is Established" />
     <MESSAGE value="Introduce Layout, a sequential order of points in the Platform&#10;Beings should choose its position according to the Layout&#10;Sorter should sort according to the Layout and its order&#10;Platform should implement LayoutManip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduce Layout, a sequential order of points in the Platform&#10;Beings should choose its position according to the Layout&#10;Sorter should sort according to the Layout and its order&#10;Platform should implement LayoutManip" />
+    <MESSAGE value="Finish Stage Three:&#10; 1. Layout &amp; Attachments&#10; 2. Sorter integrated into Grandpa and Serpent&#10; 3. Grandpa and Serpent control corresponding subordinates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Stage Three:&#10; 1. Layout &amp; Attachments&#10; 2. Sorter integrated into Grandpa and Serpent&#10; 3. Grandpa and Serpent control corresponding subordinates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -636,16 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/sorter/Sorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/HLW_COLOR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -669,7 +621,7 @@
         <state relative-caret-position="1176">
           <caret line="63" column="28" lean-forward="false" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,44 +648,44 @@
         <state relative-caret-position="399">
           <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
-            <marker date="1507887070040" expanded="false" signature="1911:1930" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="1942:1956" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2022:2041" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2062:2076" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2150:2169" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2196:2210" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2514:2533" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2557:2571" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2645:2664" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2692:2706" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2899:2918" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2930:2944" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3010:3029" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3053:3067" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3141:3160" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3187:3201" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3394:3413" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3425:3439" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3505:3524" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3547:3561" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3635:3654" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3682:3696" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3889:3908" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3920:3934" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4000:4019" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4041:4055" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4129:4148" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4175:4189" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4382:4401" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4413:4427" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4493:4512" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4534:4548" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4622:4641" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4668:4682" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4986:5005" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="5029:5043" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="5117:5136" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="5165:5179" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="1903:1922" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="1934:1948" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2014:2033" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2054:2068" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2142:2161" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2188:2202" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2506:2525" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2549:2563" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2637:2656" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2684:2698" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2891:2910" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2922:2936" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3002:3021" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3045:3059" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3133:3152" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3179:3193" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3386:3405" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3417:3431" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3497:3516" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3539:3553" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3627:3646" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3674:3688" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3881:3900" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3912:3926" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3992:4011" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4033:4047" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4121:4140" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4167:4181" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4374:4393" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4405:4419" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4485:4504" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4526:4540" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4614:4633" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4660:4674" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4978:4997" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="5021:5035" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="5109:5128" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="5157:5171" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -742,7 +694,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1508164158094" expanded="false" signature="2571:2590" ph=" { " />
+            <marker date="1508164158094" expanded="false" signature="2606:2620" ph=" }" />
+            <marker date="1508164158094" expanded="false" signature="2686:2705" ph=" { " />
+            <marker date="1508164158094" expanded="false" signature="2727:2741" ph=" }" />
+            <marker date="1508164158094" expanded="false" signature="2815:2834" ph=" { " />
+            <marker date="1508164158094" expanded="false" signature="2861:2875" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -771,27 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="273">
-            <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -847,7 +785,7 @@
         <state relative-caret-position="199">
           <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,23 +878,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/PlatformBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/villain/Subs/Scorpion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -969,21 +897,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/Subordinate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="false" />
+            <element signature="e#225#226#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -996,80 +916,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/sorter/Sorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/villain/Subs/Minion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <marker date="1507887070040" expanded="false" signature="1911:1930" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="1942:1956" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2022:2041" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2062:2076" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2150:2169" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2196:2210" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2514:2533" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2557:2571" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2645:2664" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2692:2706" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="2899:2918" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="2930:2944" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3010:3029" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3053:3067" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3141:3160" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3187:3201" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3394:3413" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3425:3439" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3505:3524" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3547:3561" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3635:3654" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3682:3696" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="3889:3908" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="3920:3934" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4000:4019" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4041:4055" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4129:4148" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4175:4189" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4382:4401" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4413:4427" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4493:4512" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4534:4548" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4622:4641" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="4668:4682" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="4986:5005" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="5029:5043" ph=" }" />
-            <marker date="1507887070040" expanded="false" signature="5117:5136" ph=" { " />
-            <marker date="1507887070040" expanded="false" signature="5165:5179" ph=" }" />
+            <element signature="e#420#421#0" expanded="false" />
+            <element signature="e#448#449#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1084,10 +937,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/Beings.java">
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/PlatformBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="147">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1096,8 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        <state relative-caret-position="430">
+          <caret line="48" column="51" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#700#701#0" expanded="true" />
@@ -1106,10 +969,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/Plate.java">
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/Beings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        <state relative-caret-position="696">
+          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1118,8 +981,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/layout/Layout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="294">
+          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/sorter/Sorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="130" column="6" lean-forward="false" selection-start-line="130" selection-start-column="6" selection-end-line="130" selection-end-column="6" />
+          <folding>
+            <marker date="1508164158094" expanded="false" signature="2571:2590" ph=" { " />
+            <marker date="1508164158094" expanded="false" signature="2606:2620" ph=" }" />
+            <marker date="1508164158094" expanded="false" signature="2686:2705" ph=" { " />
+            <marker date="1508164158094" expanded="false" signature="2727:2741" ph=" }" />
+            <marker date="1508164158094" expanded="false" signature="2815:2834" ph=" { " />
+            <marker date="1508164158094" expanded="false" signature="2861:2875" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <marker date="1508164158160" expanded="false" signature="1903:1922" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="1934:1948" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2014:2033" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2054:2068" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2142:2161" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2188:2202" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2506:2525" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2549:2563" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2637:2656" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2684:2698" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="2891:2910" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="2922:2936" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3002:3021" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3045:3059" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3133:3152" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3179:3193" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3386:3405" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3417:3431" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3497:3516" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3539:3553" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3627:3646" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3674:3688" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3881:3900" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="3912:3926" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="3992:4011" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4033:4047" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4121:4140" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4167:4181" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4374:4393" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4405:4419" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4485:4504" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4526:4540" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4614:4633" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="4660:4674" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="4978:4997" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="5021:5035" ph=" }" />
+            <marker date="1508164158160" expanded="false" signature="5109:5128" ph=" { " />
+            <marker date="1508164158160" expanded="false" signature="5157:5171" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="84">
+            <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="21">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/Plate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

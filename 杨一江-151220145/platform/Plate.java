@@ -6,15 +6,12 @@ import character.hero.Huluwa;
 import character.hero.Huluwas.*;
 import character.villain.Serpent;
 import utils.COORD;
-import utils.HLW_COLOR;
-import utils.HLW_SENIORITY;
 import utils.coordinate.Coordinate;
 import utils.coordinate._2Coordinate;
 import utils.layout.Layout;
 import utils.layout.LayoutBrief;
 import utils.layout.LayoutManip;
 import utils.position.Position;
-import utils.sorter.BubbleSort;
 
 public class Plate extends PlatformBrowser implements LayoutManip{
     final static public int dimensionality = 2;
@@ -40,7 +37,7 @@ public class Plate extends PlatformBrowser implements LayoutManip{
         }
     }
 
-    static public Plate CreateRegion(_2Coordinate granularity, _2Coordinate start,
+    static public Plate CreateRealm(_2Coordinate granularity, _2Coordinate start,
                                     int XNum, int YNum, Beings... Characters){
         Plate land = new Plate(granularity, start, XNum, YNum);
         for (Beings creature:Characters
@@ -52,8 +49,8 @@ public class Plate extends PlatformBrowser implements LayoutManip{
         return land;
     }
 
-    static public Plate CreateRegion(PlateSettings Settings, Beings... Characters){
-        return CreateRegion(Settings.granularity(), Settings.start(), Settings.XNum(), Settings.YNum(),Characters);
+    static public Plate CreateRealm(PlateSettings Settings, Beings... Characters){
+        return CreateRealm(Settings.granularity(), Settings.start(), Settings.XNum(), Settings.YNum(),Characters);
     }
 
     @Override
@@ -144,7 +141,7 @@ public class Plate extends PlatformBrowser implements LayoutManip{
     public static void main(String[] argv){
         Grandpa grandpa = new Grandpa(new _2Coordinate(6,2));
         Serpent serpent = new Serpent(new _2Coordinate(9,12));
-        Plate world = Plate.CreateRegion(PlateSettings.Regularized, grandpa, serpent);
+        Plate world = Plate.CreateRealm(PlateSettings.Regularized, grandpa, serpent);
 
         grandpa.Seed(new LayoutBrief(world, Layout.Changshe));
         serpent.Recruit(new LayoutBrief(world, Layout.Heyi));
