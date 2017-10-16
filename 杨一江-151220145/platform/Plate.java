@@ -1,15 +1,20 @@
 package platform;
 
 import character.Beings;
+import character.hero.Grandpa;
 import character.hero.Huluwa;
+import character.hero.Huluwas.*;
+import character.villain.Serpent;
 import utils.COORD;
 import utils.HLW_COLOR;
 import utils.HLW_SENIORITY;
 import utils.coordinate.Coordinate;
 import utils.coordinate._2Coordinate;
 import utils.layout.Layout;
+import utils.layout.LayoutBrief;
 import utils.layout.LayoutManip;
 import utils.position.Position;
+import utils.sorter.BubbleSort;
 
 public class Plate extends PlatformBrowser implements LayoutManip{
     final static public int dimensionality = 2;
@@ -102,9 +107,9 @@ public class Plate extends PlatformBrowser implements LayoutManip{
             for (Position col:row
                     ) {
                 if(col.isOccupied())
-                    rowString += col.getContent().TellMyName();
+                    rowString += ("{" + col.getContent().TellMyName() + "}\t");
                 else
-                    rowString += "{..}";
+                    rowString += "{...}\t";
             }
             ret += (rowString + "\n");
         }
@@ -137,25 +142,34 @@ public class Plate extends PlatformBrowser implements LayoutManip{
     }
 
     public static void main(String[] argv){
-        Plate world = Plate.CreateRegion(PlateSettings.Regularized, new Huluwa(new _2Coordinate(2,2)) {
-            @Override
-            public String TellMyName() {
-                return "大娃";
-            }
+        Grandpa grandpa = new Grandpa(new _2Coordinate(6,2));
+        Serpent serpent = new Serpent(new _2Coordinate(9,12));
+        Plate world = Plate.CreateRegion(PlateSettings.Regularized, grandpa, serpent);
 
-            @Override
-            public HLW_COLOR TellMyColor() {
-                return HLW_COLOR.RED;
-            }
+        grandpa.Seed(new LayoutBrief(world, Layout.Changshe));
+        serpent.Recruit(new LayoutBrief(world, Layout.Heyi));
 
-            @Override
-            public HLW_SENIORITY TellMySeniority() {
-                return HLW_SENIORITY.FIRST;
-            }
+        System.out.println("初始：");
+        System.out.println(world.MakeEveryoneResponse());
 
-            @Override
-            protected void AfterMeetingBeings() {throw null;}
-        });
+        serpent.DesignateTroops(new LayoutBrief(world, Layout.Fanggang));
+
+        System.out.println("阵型 1：");
+        System.out.println(world.MakeEveryoneResponse());
+
+        serpent.DesignateTroops(new LayoutBrief(world, Layout.Fengshi));
+
+        System.out.println("阵型 2：");
+        System.out.println(world.MakeEveryoneResponse());
+
+        serpent.DesignateTroops(new LayoutBrief(world, Layout.Yanyue));
+
+        System.out.println("阵型 3：");
+        System.out.println(world.MakeEveryoneResponse());
+
+        serpent.DesignateTroops(new LayoutBrief(world, Layout.Yanxing));
+
+        System.out.println("阵型 4：");
         System.out.println(world.MakeEveryoneResponse());
     }
 }
@@ -179,12 +193,12 @@ interface PlateSettings{
 
         @Override
         public int XNum() {
-            return 10;
+            return 15;
         }
 
         @Override
         public int YNum() {
-            return 10;
+            return 15;
         }
     };
 }

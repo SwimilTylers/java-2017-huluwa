@@ -4,8 +4,6 @@ import utils.coordinate._2Coordinate;
 import utils.layout.Layout;
 import utils.position.BasePosition;
 
-import java.util.Random;
-
 abstract public class Beings {
     private BasePosition where;
     private _2Coordinate birthplace;
@@ -35,6 +33,7 @@ abstract public class Beings {
 
     final public void JumpTO(BasePosition toBasePosition){
         if(toBasePosition == null)  throw null;
+        if(where == toBasePosition) return;
         if(toBasePosition.isOccupied()) {
             AfterMeetingBeings();
             return;
@@ -66,8 +65,15 @@ abstract public class Beings {
         a.JumpTO(temp);
     }
 
-    protected boolean FindMyPlaceInLayout(Layout layout){
+    public boolean FindMyPlaceInLayout(Layout layout){
         if(layout == null)  return false;
+        BasePosition selected = layout.FindVacantPlace();
+        if(selected == null)    return false;
+        JumpOut();
+        JumpTO(selected);
+        return true;
+
+        /*
         if(!layout.isAvailable())   return false;
         while (true){
             int favor = new Random().nextInt(layout.length);
@@ -77,6 +83,7 @@ abstract public class Beings {
                 return true;
             }
         }
+        */
     }
 
 /*
