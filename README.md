@@ -6,6 +6,8 @@ scorpion. We will take a close look at its whole formation in this manual.
 
 If you want display the demo, please run **./platform/Plate.java**
 
+You can check Git history in my personal Github https://github.com/SwimilTylers
+
 ## World of hierarchy
 
 >War is Peace. Freedom is Slavery. Ignorance is Strength.

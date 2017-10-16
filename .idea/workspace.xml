@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5859db1-6665-4cd5-874d-1f817241346a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/杨一江-151220145/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/README.md" afterPath="$PROJECT_DIR$/杨一江-151220145/character/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java" afterPath="$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/platform/Plate.java" afterPath="$PROJECT_DIR$/杨一江-151220145/platform/Plate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java" afterPath="$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java-2017-huluwa/character/README.md" afterPath="$PROJECT_DIR$/out/production/java-2017-huluwa/character/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/README.md" afterPath="$PROJECT_DIR$/杨一江-151220145/README.md" />
     </list>
     <list id="58c89a59-db51-4166-bd14-52540215ce1c" name="Revert &quot;Build HLW_COLOR, HLW_SENIORITY &amp; COORD&quot; This reverts commit b569af6" comment="Revert &quot;Build HLW_COLOR, HLW_SENIORITY &amp; COORD&quot;&#10;&#10;This reverts commit b569af6" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,10 +18,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Plate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Plate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/Plate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="2133">
               <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -33,12 +30,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/杨一江-151220145/README.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="126">
-                <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <first_editor relative-caret-position="21">
+                <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -426,7 +423,7 @@
       <workItem from="1507722959531" duration="18037000" />
       <workItem from="1507755782501" duration="9716000" />
       <workItem from="1507873257216" duration="19742000" />
-      <workItem from="1508119921282" duration="22451000" />
+      <workItem from="1508119921282" duration="22694000" />
     </task>
     <task id="LOCAL-00001" summary="Build HLW_COLOR, HLW_SENIORITY &amp; COORD">
       <created>1507636107048</created>
@@ -491,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508157317859</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update README.md">
+      <created>1508164378170</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1508164378170</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85486000" />
+    <option name="totallyTimeSpent" value="85729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,7 +585,8 @@
     <MESSAGE value="Framework of Plate is Established" />
     <MESSAGE value="Introduce Layout, a sequential order of points in the Platform&#10;Beings should choose its position according to the Layout&#10;Sorter should sort according to the Layout and its order&#10;Platform should implement LayoutManip" />
     <MESSAGE value="Finish Stage Three:&#10; 1. Layout &amp; Attachments&#10; 2. Sorter integrated into Grandpa and Serpent&#10; 3. Grandpa and Serpent control corresponding subordinates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Stage Three:&#10; 1. Layout &amp; Attachments&#10; 2. Sorter integrated into Grandpa and Serpent&#10; 3. Grandpa and Serpent control corresponding subordinates" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1070,22 +1075,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="21">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <first_editor relative-caret-position="168">
+            <caret line="8" column="79" lean-forward="false" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1094,11 +1088,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/Plate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
+        <state relative-caret-position="2133">
           <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="21">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
