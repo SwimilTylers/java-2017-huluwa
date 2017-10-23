@@ -1,6 +1,7 @@
 package character.hero;
 
 import character.Beings;
+import character.Representative;
 import character.hero.Huluwas.*;
 import utils.coordinate._2Coordinate;
 import utils.layout.Layout;
@@ -8,20 +9,14 @@ import utils.layout.LayoutBrief;
 import utils.sorter.ComparingInterface;
 import utils.sorter.Sorter;
 
-public class Grandpa extends Beings{
+/**
+ * Grandpa is responsible for the management of Huluwas
+ */
+
+public class Grandpa extends Beings implements Representative{
 
     static private boolean DUPLICATED_LOCK = false;
     private Huluwa[] Huluwas;
-
-    /*
-    private Dawa dawa;
-    private Erwa erwa;
-    private Sanwa sanwa;
-    private Siwa siwa;
-    private Wuwa wuwa;
-    private Liuwa liuwa;
-    private Qiwa qiwa;
-*/
 
     private Layout CurrentLayout;
 
@@ -32,34 +27,52 @@ public class Grandpa extends Beings{
         DUPLICATED_LOCK = true;
     }
 
-    private void SetLayout(LayoutBrief bf){
-        CurrentLayout = new Layout(bf);
-    }
-
-    public void Seed(LayoutBrief initLayout){
-        SetLayout(initLayout);
+    @Override
+    public void DefaultConstituents(LayoutBrief init){
+        SetLayout(init);
         if(CurrentLayout.nodes.length != 7) throw null;
         Huluwas = new Huluwa[]{new Dawa(null),
                 new Erwa(null), new Sanwa(null),
                 new Siwa(null), new Wuwa(null),
                 new Liuwa(null), new Qiwa(null)};
         for (Huluwa baby:Huluwas
-             ) {
+                ) {
             baby.FindMyPlaceInLayout(CurrentLayout);
         }
     }
-
-    public void DesignateHuluwas(LayoutBrief layout){
+    /*
+        @Override
+        public void AddRepresent(Beings... obj){
+            throw null;
+        }
+    */
+    @Override
+    public void RangeConstituents(LayoutBrief layout){
         SetLayout(layout);
         for (Huluwa baby:Huluwas
-             ) {
+                ) {
             if(!baby.FindMyPlaceInLayout(CurrentLayout))
                 break;
         }
     }
 
-    public void RangeHuluwas(Sorter sorter, ComparingInterface cmpInterface){
+    @Override
+    public void SortConstituents(Sorter sorter, ComparingInterface cmpInterface){
         sorter.Sort(CurrentLayout, cmpInterface);
+    }
+
+    @Override
+    public Huluwa Hail(String name){
+        for (Huluwa i:Huluwas
+                ) {
+            if(i.TellMyName() == name)
+                return i;
+        }
+        return null;
+    }
+
+    private void SetLayout(LayoutBrief bf){
+        CurrentLayout = new Layout(bf);
     }
 
     @Override

@@ -1,13 +1,13 @@
 package utils.layout;
 
-import platform.PlatformBrowser;
+import platform.PlatformMapModule;
 import utils.coordinate.Coordinate;
 
 public class LayoutBrief {
     final Coordinate[] coords;
-    final PlatformBrowser world;
+    final PlatformMapModule world;
 
-    public LayoutBrief(PlatformBrowser world, Coordinate... obj){
+    public LayoutBrief(PlatformMapModule world, Coordinate... obj){
         this.world = world;
         this.coords = obj;
     }

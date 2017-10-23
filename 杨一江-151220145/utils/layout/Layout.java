@@ -1,6 +1,6 @@
 package utils.layout;
 
-import platform.PlatformBrowser;
+import platform.PlatformMapModule;
 import utils.coordinate.Coordinate;
 import utils.coordinate._2Coordinate;
 import utils.position.BasePosition;
@@ -9,10 +9,10 @@ import java.util.Random;
 
 public class Layout {
     final public BasePosition[] nodes;
-    final public PlatformBrowser platform;
+    final public PlatformMapModule platform;
     final public int length;
 
-    public Layout(PlatformBrowser platform, Coordinate... obj){
+    public Layout(PlatformMapModule platform, Coordinate... obj){
         this.platform = platform;
         nodes = platform.Location(obj);
         length = nodes.length;

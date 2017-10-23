@@ -1,7 +1,7 @@
 package utils.coordinate;
 
 public class Coordinate {
-    final int dimension;
+    final public int dimension;
     protected double[] tensors;
 
     public Coordinate(int dimension){

@@ -6,7 +6,7 @@ scorpion. We will take a close look at its whole formation in this manual.
 
 If you want display the demo, please run **./platform/Plate.java**
 
-You can check Git history in my personal Github https://github.com/SwimilTylers
+You can check Git history in my personal Github https://github.com/SwimilTylers/java-2017-huluwa
 
 ## World of hierarchy
 
@@ -78,7 +78,7 @@ characters resides in, _Layout_ Sorter based on, _Coordinate_
 position possesses - all of them relate closely to the platform
 they live in.
 
-    public Layout::Layout(PlatformBrowser platform, Coordinate... obj);
+    public Layout::Layout(PlatformMapModule platform, Coordinate... obj);
     
 
 ## Between Cartesian Products

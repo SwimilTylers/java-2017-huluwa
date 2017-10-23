@@ -78,7 +78,7 @@ characters resides in, _Layout_ Sorter based on, _Coordinate_
 position possesses - all of them relate closely to the platform
 they live in.
 
-    public Layout::Layout(PlatformBrowser platform, Coordinate... obj);
+    public Layout::Layout(PlatformMapModule platform, Coordinate... obj);
     
 
 ## Between Cartesian Products
