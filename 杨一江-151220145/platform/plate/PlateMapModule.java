@@ -13,7 +13,7 @@ public class PlateMapModule implements PlatformMapModule {
 
     final private Position[][] Map;
 
-    public PlateMapModule(_2Coordinate granularity, _2Coordinate start, int XNum, int YNum){
+    PlateMapModule(_2Coordinate granularity, _2Coordinate start, int XNum, int YNum){
         this.granularity = new _2Coordinate(granularity);
         this.start = new _2Coordinate(start);
         size = new int[2];

@@ -7,17 +7,19 @@ import utils.COORD;
 import utils.coordinate._2Coordinate;
 import utils.layout.Layout;
 import utils.layout.LayoutBrief;
-import utils.layout.LayoutManip;
 import utils.position.Position;
 
-public class Plate implements LayoutManip{
+public class Plate{
     final public PlateMapModule MapModule;
+    final public PlateLayoutManipModule LayoutManip;
+
     final private _2Coordinate granularity;
     final private _2Coordinate start;
     final private int[] size;
 
     private Plate(_2Coordinate granularity, _2Coordinate start, int XNum, int YNum){
         MapModule = new PlateMapModule(granularity, start, XNum, YNum);
+        LayoutManip = new PlateLayoutManipModule(granularity, start, XNum, YNum);
         this.granularity = granularity;
         this.start = start;
         size = new int[2];
@@ -50,31 +52,6 @@ public class Plate implements LayoutManip{
     @Override
     public String toString(){
         return MapModule.MakeEveryoneResponse();
-    }
-
-    @Override
-    public Layout CentroSymmetry(Layout orig){
-        return null;
-    }
-
-    @Override
-    public Layout InversionSymmetry(Layout orig){
-        return null;
-    }
-
-    @Override
-    public Layout ReversionSymmetry(Layout orig){
-        return null;
-    }
-
-    @Override
-    public Layout Combination(Layout... origs){
-        return null;
-    }
-
-    @Override
-    public Layout Intersection(Layout... origs){
-        return null;
     }
 
     public static void main(String[] argv){
