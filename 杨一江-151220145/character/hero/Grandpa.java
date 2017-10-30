@@ -62,7 +62,9 @@ public class Grandpa extends Beings implements Representative{
     }
 
     @Override
-    public Huluwa Hail(String name){
+    public Beings Hail(String name){
+        if(name == this.TellMyName())
+            return this;
         for (Huluwa i:Huluwas
                 ) {
             if(i.TellMyName() == name)

@@ -72,6 +72,8 @@ public class Serpent extends Beings implements Representative{
 
     @Override
     public Beings Hail(String name){
+        if(this.TellMyName() == name)
+            return this;
         if(General.TellMyName() == name)
             return General;
         for (Minion i:Soldiers

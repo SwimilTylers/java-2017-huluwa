@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5859db1-6665-4cd5-874d-1f817241346a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateLayoutManipModule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/platform/plate/Plate.java" afterPath="$PROJECT_DIR$/杨一江-151220145/platform/plate/Plate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateMapModule.java" afterPath="$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateMapModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java" afterPath="$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java" afterPath="$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java" />
     </list>
     <list id="58c89a59-db51-4166-bd14-52540215ce1c" name="Revert &quot;Build HLW_COLOR, HLW_SENIORITY &amp; COORD&quot; This reverts commit b569af6" comment="Revert &quot;Build HLW_COLOR, HLW_SENIORITY &amp; COORD&quot;&#10;&#10;This reverts commit b569af6" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,39 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Plate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Plate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/Plate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1880#1881#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlateLayoutManipModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateLayoutManipModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Layout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/layout/Layout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="21">
+              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,21 +30,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlateSettings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-42">
+                <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlateMapModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateMapModule.java">
+      <file leaf-file-name="Beings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/Beings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="83" />
+            <state relative-caret-position="21">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,972 +55,754 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/">
+      <file leaf-file-name="Project.uml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UML/Project.uml">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
               <OriginalElement />
               <nodes>
-                <node x="1698.8242673992672" y="2539.0">utils.sorter.Sorter</node>
-                <node x="1400.2776394026055" y="1433.0">platform.PlatformMapModule</node>
-                <node x="7282.341487252004" y="39.0">utils.COORD</node>
-                <node x="489.1992673992672" y="1244.0">character.villain.Subs.Minion</node>
-                <node x="2081.9715377570556" y="963.0">utils.position.BasePosition</node>
-                <node x="3915.427598363116" y="2840.0">character.hero.Huluwas.Erwa</node>
-                <node x="7122.04846878402" y="603.0">platform.plate.PlateSettings</node>
-                <node x="2371.267033341999" y="2827.0">utils.sorter.BubbleSort</node>
-                <node x="3796.177598363116" y="2185.0">character.hero.ColorSorting</node>
-                <node x="3696.381675620557" y="219.0">utils.coordinate._2Coordinate</node>
-                <node x="7492.44846878402" y="0.0">utils.coordinate.RelaCoordinate</node>
-                <node x="1385.9026394026055" y="1808.0">utils.layout.LayoutBrief</node>
-                <node x="2679.631675620557" y="1626.0">utils.sorter.ComparingInterface</node>
-                <node x="6269.29846878402" y="2840.0">character.hero.Huluwas.Dawa</node>
-                <node x="867.1992673992672" y="1257.0">character.villain.Subs.Scorpion</node>
-                <node x="3483.177598363116" y="2185.0">character.hero.SenioritySorting</node>
-                <node x="2025.4013725902537" y="2198.0">utils.layout.Layout</node>
-                <node x="5919.29846878402" y="2840.0">character.hero.Huluwas.Wuwa</node>
-                <node x="1457.3911453175265" y="0.0">utils.coordinate.Coordinate</node>
-                <node x="6657.103897842779" y="2539.0">utils.layout.LayoutManip</node>
-                <node x="4799.177598363116" y="2840.0">character.hero.Huluwas.Sanwa</node>
-                <node x="2000.442281681163" y="512.0">character.Beings</node>
-                <node x="5569.29846878402" y="2840.0">character.hero.Huluwas.Qiwa</node>
-                <node x="1401.1992673992672" y="2840.0">character.Representative</node>
-                <node x="3708.1282709499073" y="3158.0">character.hero.Grandpa</node>
-                <node x="4289.29846878402" y="2526.0">character.hero.Huluwa</node>
-                <node x="7481.69846878402" y="219.0">utils.coordinate._2RelaCoordinate</node>
-                <node x="946.6992673992672" y="1015.0">character.Subordinate</node>
-                <node x="3770.378270949907" y="3537.0">platform.plate.Plate</node>
-                <node x="6718.590135450687" y="2827.0">platform.plate.PlateLayoutManipModule</node>
-                <node x="4727.177598363116" y="1743.0">utils.HLW_COLOR</node>
-                <node x="4238.177598363116" y="1743.0">utils.HLW_SENIORITY</node>
-                <node x="101.07619047619028" y="1769.0">platform.plate.PlateMapModule</node>
-                <node x="3292.5484687840203" y="2840.0">character.hero.Huluwas.Siwa</node>
-                <node x="872.6546598387968" y="3132.0">character.villain.Serpent</node>
-                <node x="5219.29846878402" y="2840.0">character.hero.Huluwas.Liuwa</node>
-                <node x="201.94285714285706" y="1283.0">utils.position.Position</node>
+                <node x="2342.431999559624" y="2509.0">utils.sorter.Sorter</node>
+                <node x="3080.533853994166" y="1443.0">platform.PlatformMapModule</node>
+                <node x="1587.5910904687148" y="39.0">utils.COORD</node>
+                <node x="1163.7083333333335" y="1244.0">character.villain.Subs.Minion</node>
+                <node x="2101.6138177414423" y="963.0">utils.position.BasePosition</node>
+                <node x="10.5" y="593.0">platform.plate.PlateSettings</node>
+                <node x="694.7083333333335" y="2747.0">utils.sorter.BubbleSort</node>
+                <node x="3513.1963539941653" y="2165.0">character.hero.ColorSorting</node>
+                <node x="1572.3410904687148" y="239.0">utils.coordinate._2Coordinate</node>
+                <node x="5561.702156177156" y="0.0">utils.coordinate.RelaCoordinate</node>
+                <node x="3274.7588539941653" y="1818.0">utils.layout.LayoutBrief</node>
+                <node x="2758.7588539941653" y="1636.0">utils.sorter.ComparingInterface</node>
+                <node x="2240.276515151515" y="2178.0">utils.layout.Layout</node>
+                <node x="1541.7083333333335" y="1257.0">character.villain.Subs.Scorpion</node>
+                <node x="3826.1963539941653" y="2165.0">character.hero.SenioritySorting</node>
+                <node x="589.0425764714873" y="2509.0">utils.layout.LayoutManip</node>
+                <node x="3098.8262303288548" y="0.0">utils.coordinate.Coordinate</node>
+                <node x="1935.7083333333335" y="502.0">character.Beings</node>
+                <node x="2848.2012303288548" y="2760.0">character.Representative</node>
+                <node x="3227.5009098048204" y="3048.0">character.hero.Grandpa</node>
+                <node x="4848.4624125874125" y="2812.0">character.hero.Huluwas</node>
+                <node x="3727.531394212929" y="2496.0">character.hero.Huluwa</node>
+                <node x="1615.7083333333335" y="1015.0">character.Subordinate</node>
+                <node x="5550.952156177156" y="239.0">utils.coordinate._2RelaCoordinate</node>
+                <node x="1571.2509098048206" y="3427.0">platform.plate.Plate</node>
+                <node x="326.5" y="2747.0">platform.plate.PlateLayoutManipModule</node>
+                <node x="4579.196353994165" y="1753.0">utils.HLW_SENIORITY</node>
+                <node x="4140.196353994166" y="1753.0">utils.HLW_COLOR</node>
+                <node x="5120.744430917242" y="1779.0">platform.plate.PlateMapModule</node>
+                <node x="1734.5009098048206" y="3022.0">character.villain.Serpent</node>
+                <node x="5155.577764250576" y="1283.0">utils.position.Position</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="platform.plate.Plate" target="character.Beings">
-                  <point x="32.470588235294144" y="-82.5" />
-                  <point x="4078.848859185201" y="3447.0" />
-                  <point x="6621.645564509446" y="3447.0" />
-                  <point x="6621.645564509446" y="903.0" />
-                  <point x="2375.5089483478296" y="903.0" />
-                  <point x="181.0666666666666" y="160.5" />
-                </edge>
                 <edge source="character.villain.Serpent" target="utils.sorter.ComparingInterface">
-                  <point x="69.38461538461524" y="-147.5" />
-                  <point x="1167.539275223412" y="3072.0" />
-                  <point x="1288.399267399267" y="3072.0" />
-                  <point x="1288.399267399267" y="2426.0" />
-                  <point x="1901.8286453175265" y="2426.0" />
-                  <point x="1901.8286453175265" y="2145.0" />
-                  <point x="2710.631675620557" y="2145.0" />
-                  <point x="-217.0" y="199.5" />
+                  <point x="138.76923076923072" y="-147.5" />
+                  <point x="2098.7701405740513" y="2982.0" />
+                  <point x="2789.931999559624" y="2982.0" />
+                  <point x="2789.931999559624" y="2456.0" />
+                  <point x="2907.244499559624" y="2456.0" />
+                  <point x="2907.244499559624" y="2125.0" />
+                  <point x="2913.7588539941653" y="2125.0" />
+                  <point x="-93.0" y="199.5" />
+                </edge>
+                <edge source="platform.plate.Plate" target="character.Beings">
+                  <point x="-32.470588235294144" y="-82.5" />
+                  <point x="1814.7803215695264" y="3337.0" />
+                  <point x="1142.2083333333335" y="3337.0" />
+                  <point x="1142.2083333333335" y="863.0" />
+                  <point x="1972.0833333333335" y="863.0" />
+                  <point x="-157.625" y="160.5" />
                 </edge>
                 <edge source="utils.layout.Layout" target="utils.layout.LayoutBrief">
-                  <point x="-155.4545454545455" y="-82.5" />
-                  <point x="2040.9468271357082" y="2135.0" />
-                  <point x="1514.6026394026057" y="2135.0" />
-                  <point x="57.200000000000045" y="17.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Siwa" target="utils.coordinate._2Coordinate">
-                  <point x="-123.75" y="-69.5" />
-                  <point x="3333.7984687840203" y="2767.0" />
-                  <point x="3331.381675620557" y="2767.0" />
-                  <point x="3331.381675620557" y="482.0" />
-                  <point x="3837.2316756205564" y="482.0" />
-                  <point x="-15.650000000000091" y="56.5" />
+                  <point x="155.4545454545455" y="-82.5" />
+                  <point x="2566.731060606061" y="2135.0" />
+                  <point x="3289.0588539941655" y="2135.0" />
+                  <point x="-57.200000000000045" y="17.5" />
                 </edge>
                 <edge source="character.hero.Huluwa" target="character.Subordinate">
                   <point x="-110.0" y="-95.5" />
-                  <point x="4344.29846878402" y="2486.0" />
-                  <point x="3472.677598363116" y="2486.0" />
-                  <point x="3472.677598363116" y="1194.0" />
-                  <point x="1168.3659340659342" y="1194.0" />
-                  <point x="88.66666666666697" y="43.5" />
+                  <point x="3782.531394212929" y="2466.0" />
+                  <point x="3502.6963539941653" y="2466.0" />
+                  <point x="3502.6963539941653" y="2105.0" />
+                  <point x="3831.295745920746" y="2105.0" />
+                  <point x="3831.295745920746" y="1204.0" />
+                  <point x="1837.3750000000002" y="1204.0" />
+                  <point x="88.66666666666674" y="43.5" />
                 </edge>
                 <edge source="utils.position.BasePosition" target="character.Beings">
-                  <point x="-67.19999999999982" y="-95.5" />
-                  <point x="2182.7715377570557" y="943.0" />
-                  <point x="2220.3089483478298" y="943.0" />
-                  <point x="25.866666666666788" y="160.5" />
+                  <point x="-134.39999999999998" y="-95.5" />
+                  <point x="2135.213817741442" y="943.0" />
+                  <point x="2166.0833333333335" y="943.0" />
+                  <point x="36.375" y="160.5" />
                 </edge>
                 <edge source="character.hero.ColorSorting" target="utils.position.BasePosition">
                   <point x="0.0" y="-95.5" />
-                  <point x="3942.677598363116" y="1174.0" />
-                  <point x="2396.9715377570556" y="1174.0" />
-                  <point x="147.0" y="95.5" />
+                  <point x="3659.6963539941653" y="2115.0" />
+                  <point x="3883.500909804821" y="2115.0" />
+                  <point x="3883.500909804821" y="1194.0" />
+                  <point x="2332.6138177414423" y="1194.0" />
+                  <point x="63.0" y="95.5" />
                 </edge>
                 <edge source="utils.position.BasePosition" target="utils.coordinate.Coordinate">
-                  <point x="134.4000000000001" y="-95.5" />
-                  <point x="2384.371537757056" y="943.0" />
-                  <point x="2398.942281681163" y="943.0" />
-                  <point x="2398.942281681163" y="169.0" />
-                  <point x="1707.2482881746694" y="169.0" />
-                  <point x="90.85714285714289" y="69.5" />
+                  <point x="134.39999999999998" y="-95.5" />
+                  <point x="2404.013817741442" y="943.0" />
+                  <point x="2529.108941406753" y="943.0" />
+                  <point x="2529.108941406753" y="199.0" />
+                  <point x="3166.9690874717116" y="199.0" />
+                  <point x="-90.85714285714289" y="69.5" />
                 </edge>
                 <edge source="platform.PlatformMapModule" target="utils.position.Position">
-                  <point x="-80.25" y="-56.5" />
-                  <point x="1480.5276394026055" y="1403.0" />
-                  <point x="382.84285714285716" y="1403.0" />
-                  <point x="80.39999999999998" y="30.5" />
-                </edge>
-                <edge source="character.hero.Grandpa" target="character.hero.Huluwas.Liuwa">
-                  <point x="112.75" y="-121.5" />
-                  <point x="4046.3782709499073" y="3072.0" />
-                  <point x="5384.29846878402" y="3072.0" />
-                  <point x="0.0" y="69.5" />
+                  <point x="80.25" y="-56.5" />
+                  <point x="3321.283853994166" y="1413.0" />
+                  <point x="5175.677764250576" y="1413.0" />
+                  <point x="-80.4" y="30.5" />
                 </edge>
                 <edge source="utils.sorter.Sorter" target="utils.layout.Layout">
-                  <point x="0.0" y="-82.5" />
-                  <point x="1917.3242673992672" y="2496.0" />
-                  <point x="2158.4013725902537" y="2496.0" />
-                  <point x="-38.0" y="82.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Dawa" target="character.hero.Huluwa">
-                  <point x="-123.75" y="-69.5" />
-                  <point x="6310.54846878402" y="2757.0" />
-                  <point x="4602.79846878402" y="2757.0" />
-                  <point x="148.5" y="95.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Sanwa" target="character.hero.Huluwa">
-                  <point x="-123.75" y="-69.5" />
-                  <point x="4840.427598363116" y="2807.0" />
-                  <point x="4470.79846878402" y="2807.0" />
-                  <point x="16.5" y="95.5" />
+                  <point x="-145.66666666666663" y="-82.5" />
+                  <point x="2415.2653328929573" y="2426.0" />
+                  <point x="2449.276515151515" y="2426.0" />
+                  <point x="38.0" y="82.5" />
                 </edge>
                 <edge source="character.hero.SenioritySorting" target="utils.position.BasePosition">
                   <point x="0.0" y="-95.5" />
-                  <point x="3629.677598363116" y="1184.0" />
-                  <point x="2354.9715377570556" y="1184.0" />
+                  <point x="3972.6963539941653" y="2115.0" />
+                  <point x="4045.500909804821" y="2115.0" />
+                  <point x="4045.500909804821" y="1184.0" />
+                  <point x="2374.6138177414423" y="1184.0" />
                   <point x="105.0" y="95.5" />
                 </edge>
                 <edge source="utils.sorter.BubbleSort" target="utils.sorter.Sorter">
-                  <point x="-174.80000000000018" y="-82.5" />
-                  <point x="2414.967033341999" y="2807.0" />
-                  <point x="2081.1992673992672" y="2807.0" />
-                  <point x="163.875" y="82.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Liuwa" target="utils.coordinate._2Coordinate">
-                  <point x="123.75" y="-69.5" />
-                  <point x="5508.04846878402" y="2807.0" />
-                  <point x="5522.9614777864435" y="2807.0" />
-                  <point x="5522.9614777864435" y="472.0" />
-                  <point x="3878.96500895389" y="472.0" />
-                  <point x="26.083333333333485" y="56.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Qiwa" target="utils.coordinate._2Coordinate">
-                  <point x="123.75" y="-69.5" />
-                  <point x="5858.04846878402" y="2807.0" />
-                  <point x="5872.9614777864435" y="2807.0" />
-                  <point x="5872.9614777864435" y="462.0" />
-                  <point x="3889.3983422872234" y="462.0" />
-                  <point x="36.51666666666688" y="56.5" />
+                  <point x="174.79999999999995" y="-82.5" />
+                  <point x="1088.0083333333334" y="2727.0" />
+                  <point x="2397.056999559624" y="2727.0" />
+                  <point x="-163.875" y="82.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="utils.layout.Layout">
-                  <point x="-64.94117647058829" y="-82.5" />
-                  <point x="3981.4370944793186" y="3457.0" />
-                  <point x="1390.6992673992672" y="3457.0" />
-                  <point x="1390.6992673992672" y="2486.0" />
-                  <point x="2120.4013725902537" y="2486.0" />
-                  <point x="-76.0" y="82.5" />
+                  <point x="64.94117647058829" y="-82.5" />
+                  <point x="1912.1920862754089" y="3347.0" />
+                  <point x="2837.7012303288548" y="3347.0" />
+                  <point x="2837.7012303288548" y="2416.0" />
+                  <point x="2487.276515151515" y="2416.0" />
+                  <point x="76.0" y="82.5" />
                 </edge>
                 <edge source="utils.position.Position" target="utils.position.BasePosition">
-                  <point x="50.25" y="-30.5" />
-                  <point x="352.69285714285706" y="1204.0" />
-                  <point x="2102.9715377570556" y="1204.0" />
-                  <point x="-147.0" y="95.5" />
-                </edge>
-                <edge source="character.hero.Grandpa" target="character.hero.Huluwas.Dawa">
-                  <point x="187.91666666666697" y="-121.5" />
-                  <point x="4121.544937616574" y="3102.0" />
-                  <point x="6434.29846878402" y="3102.0" />
-                  <point x="0.0" y="69.5" />
+                  <point x="-50.25" y="-30.5" />
+                  <point x="5205.827764250576" y="1174.0" />
+                  <point x="2416.6138177414423" y="1174.0" />
+                  <point x="147.0" y="95.5" />
                 </edge>
                 <edge source="character.hero.Huluwa" target="utils.coordinate._2Coordinate">
-                  <point x="73.33333333333303" y="-95.5" />
-                  <point x="4527.631802117354" y="2436.0" />
-                  <point x="4099.677598363116" y="2436.0" />
-                  <point x="4099.677598363116" y="492.0" />
-                  <point x="3858.098342287223" y="492.0" />
-                  <point x="5.216666666666697" y="56.5" />
+                  <point x="73.33333333333326" y="-95.5" />
+                  <point x="3965.8647275462627" y="2456.0" />
+                  <point x="4129.696353994165" y="2456.0" />
+                  <point x="4129.696353994165" y="432.0" />
+                  <point x="1800.5702571353813" y="432.0" />
+                  <point x="71.72916666666652" y="56.5" />
                 </edge>
                 <edge source="utils.layout.LayoutBrief" target="utils.coordinate.Coordinate">
-                  <point x="-53.625" y="-17.5" />
-                  <point x="1403.7776394026055" y="1596.0" />
-                  <point x="1357.7151394026055" y="1596.0" />
-                  <point x="1357.7151394026055" y="169.0" />
-                  <point x="1525.5340024603838" y="169.0" />
-                  <point x="-90.85714285714266" y="69.5" />
+                  <point x="17.875" y="-17.5" />
+                  <point x="3364.1338539941653" y="1606.0" />
+                  <point x="3412.033853994166" y="1606.0" />
+                  <point x="3412.033853994166" y="219.0" />
+                  <point x="3303.254801757426" y="219.0" />
+                  <point x="45.42857142857133" y="69.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="utils.coordinate._2Coordinate">
-                  <point x="194.82352941176487" y="-82.5" />
-                  <point x="4241.201800361672" y="3497.0" />
-                  <point x="7416.54846878402" y="3497.0" />
-                  <point x="7416.54846878402" y="362.0" />
-                  <point x="3993.7316756205564" y="362.0" />
-                  <point x="140.8499999999999" y="56.5" />
+                  <point x="-194.82352941176487" y="-82.5" />
+                  <point x="1652.4273803930557" y="3387.0" />
+                  <point x="294.0" y="3387.0" />
+                  <point x="294.0" y="392.0" />
+                  <point x="1604.9452571353816" y="392.0" />
+                  <point x="-123.89583333333326" y="56.5" />
                 </edge>
-                <edge source="character.hero.Huluwas.Wuwa" target="character.hero.Huluwa">
-                  <point x="-123.75" y="-69.5" />
-                  <point x="5960.54846878402" y="2767.0" />
-                  <point x="4569.79846878402" y="2767.0" />
-                  <point x="115.5" y="95.5" />
-                </edge>
-                <edge source="utils.sorter.Sorter" target="utils.position.BasePosition">
-                  <point x="-145.66666666666652" y="-82.5" />
-                  <point x="1771.6576007326007" y="2446.0" />
-                  <point x="1923.8286453175265" y="2446.0" />
-                  <point x="1923.8286453175265" y="1214.0" />
-                  <point x="2144.9715377570556" y="1214.0" />
-                  <point x="-105.0" y="95.5" />
+                <edge source="character.hero.Huluwas" target="utils.HLW_SENIORITY">
+                  <point x="20.75" y="-17.5" />
+                  <point x="4952.2124125874125" y="2727.0" />
+                  <point x="4939.042576471487" y="2727.0" />
+                  <point x="4939.042576471487" y="2145.0" />
+                  <point x="4970.029687327498" y="2145.0" />
+                  <point x="156.33333333333348" y="82.5" />
                 </edge>
                 <edge source="utils.sorter.BubbleSort" target="utils.position.BasePosition">
+                  <point x="-87.40000000000009" y="-82.5" />
+                  <point x="825.8083333333334" y="2707.0" />
+                  <point x="578.5425764714873" y="2707.0" />
+                  <point x="578.5425764714873" y="1423.0" />
+                  <point x="1860.233941406753" y="1423.0" />
+                  <point x="1860.233941406753" y="1224.0" />
+                  <point x="2122.6138177414423" y="1224.0" />
+                  <point x="-147.0" y="95.5" />
+                </edge>
+                <edge source="utils.sorter.Sorter" target="utils.position.BasePosition">
                   <point x="0.0" y="-82.5" />
-                  <point x="2589.767033341999" y="2807.0" />
-                  <point x="2658.131675620557" y="2807.0" />
-                  <point x="2658.131675620557" y="1224.0" />
-                  <point x="2312.9715377570556" y="1224.0" />
-                  <point x="63.0" y="95.5" />
+                  <point x="2560.931999559624" y="2426.0" />
+                  <point x="2700.858245920746" y="2426.0" />
+                  <point x="2700.858245920746" y="1224.0" />
+                  <point x="2290.6138177414423" y="1224.0" />
+                  <point x="21.0" y="95.5" />
                 </edge>
                 <edge source="utils.layout.LayoutBrief" target="platform.PlatformMapModule">
-                  <point x="53.625" y="-17.5" />
-                  <point x="1511.0276394026055" y="1606.0" />
-                  <point x="1560.7776394026055" y="1606.0" />
+                  <point x="-53.625" y="-17.5" />
+                  <point x="3292.6338539941653" y="1616.0" />
+                  <point x="3241.033853994166" y="1616.0" />
                   <point x="0.0" y="56.5" />
                 </edge>
                 <edge source="utils.coordinate._2RelaCoordinate" target="utils.COORD">
                   <point x="-61.75" y="-56.5" />
-                  <point x="7543.44846878402" y="179.0" />
-                  <point x="7395.741487252004" y="179.0" />
-                  <point x="50.399999999999636" y="30.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Siwa" target="character.hero.Huluwa">
-                  <point x="123.75" y="-69.5" />
-                  <point x="3581.2984687840203" y="2797.0" />
-                  <point x="4371.79846878402" y="2797.0" />
-                  <point x="-82.5" y="95.5" />
+                  <point x="5612.702156177156" y="159.0" />
+                  <point x="1700.991090468715" y="159.0" />
+                  <point x="50.40000000000009" y="30.5" />
                 </edge>
                 <edge source="utils.sorter.BubbleSort" target="utils.sorter.ComparingInterface">
-                  <point x="174.80000000000018" y="-82.5" />
-                  <point x="2764.5670333419994" y="2807.0" />
-                  <point x="2900.5316756205566" y="2807.0" />
-                  <point x="2900.5316756205566" y="2165.0" />
-                  <point x="2896.631675620557" y="2165.0" />
-                  <point x="-31.0" y="199.5" />
+                  <point x="87.40000000000009" y="-82.5" />
+                  <point x="1001.335590017125" y="2436.0" />
+                  <point x="2786.6884098048204" y="2436.0" />
+                  <point x="2786.6884098048204" y="2125.0" />
+                  <point x="2789.7588539941653" y="2125.0" />
+                  <point x="-217.0" y="199.5" />
                 </edge>
                 <edge source="platform.plate.PlateLayoutManipModule" target="utils.COORD">
-                  <point x="142.08333333333303" y="-82.5" />
-                  <point x="7031.17346878402" y="2807.0" />
-                  <point x="7100.54846878402" y="2807.0" />
-                  <point x="7100.54846878402" y="943.0" />
-                  <point x="7405.54846878402" y="943.0" />
-                  <point x="7405.54846878402" y="199.0" />
-                  <point x="7345.341487252004" y="199.0" />
-                  <point x="0.0" y="30.5" />
+                  <point x="-142.08333333333348" y="-82.5" />
+                  <point x="354.9166666666665" y="2727.0" />
+                  <point x="372.2756080734198" y="2727.0" />
+                  <point x="372.2756080734198" y="219.0" />
+                  <point x="1625.3910904687148" y="219.0" />
+                  <point x="-25.200000000000045" y="30.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="character.hero.Grandpa">
-                  <point x="0.0" y="-82.5" />
+                  <point x="129.88235294117658" y="-82.5" />
+                  <point x="1977.1332627459972" y="3367.0" />
+                  <point x="3565.7509098048204" y="3367.0" />
                   <point x="112.75" y="121.5" />
                 </edge>
-                <edge source="character.hero.Huluwas.Erwa" target="utils.HLW_COLOR">
-                  <point x="41.25" y="-69.5" />
-                  <point x="4121.677598363116" y="2767.0" />
-                  <point x="4278.79846878402" y="2767.0" />
-                  <point x="4278.79846878402" y="2155.0" />
-                  <point x="4843.566487252005" y="2155.0" />
-                  <point x="-93.11111111111131" y="82.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Liuwa" target="character.hero.Huluwa">
-                  <point x="-123.75" y="-69.5" />
-                  <point x="5260.54846878402" y="2787.0" />
-                  <point x="4503.79846878402" y="2787.0" />
-                  <point x="49.5" y="95.5" />
-                </edge>
                 <edge source="character.hero.SenioritySorting" target="utils.HLW_SENIORITY">
-                  <point x="97.66666666666652" y="-95.5" />
-                  <point x="3727.344265029782" y="2115.0" />
-                  <point x="4368.455376140893" y="2115.0" />
-                  <point x="-104.22222222222263" y="82.5" />
+                  <point x="97.66666666666669" y="-95.5" />
+                  <point x="4070.3630206608323" y="2135.0" />
+                  <point x="4657.363020660832" y="2135.0" />
+                  <point x="-156.33333333333334" y="82.5" />
                 </edge>
                 <edge source="utils.position.Position" target="utils.coordinate._2Coordinate">
-                  <point x="-50.25" y="-30.5" />
-                  <point x="252.19285714285706" y="372.0" />
-                  <point x="3722.46500895389" y="372.0" />
-                  <point x="-130.41666666666652" y="56.5" />
+                  <point x="50.25" y="-30.5" />
+                  <point x="5306.327764250576" y="392.0" />
+                  <point x="1852.736923802048" y="392.0" />
+                  <point x="123.89583333333326" y="56.5" />
                 </edge>
                 <edge source="utils.layout.Layout" target="utils.position.BasePosition">
-                  <point x="0.0" y="-82.5" />
-                  <point x="2196.4013725902537" y="2085.0" />
-                  <point x="2259.9715377570556" y="2085.0" />
-                  <point x="2259.9715377570556" y="1224.0" />
-                  <point x="2228.9715377570556" y="1224.0" />
+                  <point x="-31.09090909090901" y="-82.5" />
+                  <point x="2380.185606060606" y="2105.0" />
+                  <point x="2248.6138177414423" y="2105.0" />
                   <point x="-21.0" y="95.5" />
                 </edge>
-                <edge source="character.hero.Grandpa" target="character.hero.Huluwas.Wuwa">
-                  <point x="162.8611111111113" y="-121.5" />
-                  <point x="4096.489382061019" y="3092.0" />
-                  <point x="6084.29846878402" y="3092.0" />
-                  <point x="0.0" y="69.5" />
-                </edge>
-                <edge source="character.hero.Grandpa" target="character.hero.Huluwas.Erwa">
-                  <point x="37.583333333333485" y="-121.5" />
-                  <point x="3971.2116042832404" y="3042.0" />
-                  <point x="4080.427598363116" y="3042.0" />
-                  <point x="0.0" y="69.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Erwa" target="utils.HLW_SENIORITY">
-                  <point x="-41.25" y="-69.5" />
-                  <point x="4039.177598363116" y="2737.0" />
-                  <point x="3461.677598363116" y="2737.0" />
-                  <point x="3461.677598363116" y="2105.0" />
-                  <point x="4316.344265029783" y="2105.0" />
-                  <point x="-156.33333333333303" y="82.5" />
+                <edge source="character.hero.Huluwas" target="utils.coordinate._2Coordinate">
+                  <point x="62.25" y="-17.5" />
+                  <point x="4993.7124125874125" y="2727.0" />
+                  <point x="5058.696353994165" y="2727.0" />
+                  <point x="5058.696353994165" y="422.0" />
+                  <point x="1813.611923802048" y="422.0" />
+                  <point x="84.77083333333326" y="56.5" />
                 </edge>
                 <edge source="character.hero.Huluwa" target="utils.sorter.ComparingInterface">
-                  <point x="-146.66666666666697" y="-95.5" />
-                  <point x="4307.631802117354" y="2496.0" />
-                  <point x="3043.5484687840203" y="2496.0" />
-                  <point x="3043.5484687840203" y="2165.0" />
-                  <point x="3020.631675620557" y="2165.0" />
+                  <point x="-146.66666666666652" y="-95.5" />
+                  <point x="3745.8647275462627" y="2476.0" />
+                  <point x="3480.6963539941653" y="2476.0" />
+                  <point x="3480.6963539941653" y="2105.0" />
+                  <point x="3099.7588539941653" y="2105.0" />
                   <point x="93.0" y="199.5" />
                 </edge>
                 <edge source="platform.plate.PlateMapModule" target="utils.COORD">
-                  <point x="-107.0" y="-56.5" />
-                  <point x="154.57619047619028" y="1606.0" />
-                  <point x="169.44285714285706" y="1606.0" />
-                  <point x="169.44285714285706" y="189.0" />
-                  <point x="7294.941487252005" y="189.0" />
-                  <point x="-50.399999999999636" y="30.5" />
+                  <point x="107.0" y="-56.5" />
+                  <point x="5389.077764250576" y="179.0" />
+                  <point x="1675.7910904687149" y="179.0" />
+                  <point x="25.200000000000045" y="30.5" />
                 </edge>
                 <edge source="character.Representative" target="character.Beings">
                   <point x="-56.375" y="-69.5" />
-                  <point x="1570.3242673992672" y="2807.0" />
-                  <point x="1564.6546598387968" y="2807.0" />
-                  <point x="1564.6546598387968" y="2436.0" />
-                  <point x="1912.8286453175265" y="2436.0" />
-                  <point x="1912.8286453175265" y="923.0" />
-                  <point x="2168.575615014496" y="923.0" />
-                  <point x="-25.866666666666788" y="160.5" />
+                  <point x="3017.3262303288548" y="2727.0" />
+                  <point x="2964.8262303288548" y="2727.0" />
+                  <point x="2964.8262303288548" y="2406.0" />
+                  <point x="2748.2588539941653" y="2406.0" />
+                  <point x="2748.2588539941653" y="923.0" />
+                  <point x="2263.0833333333335" y="923.0" />
+                  <point x="133.375" y="160.5" />
                 </edge>
                 <edge source="character.Beings" target="utils.layout.Layout">
-                  <point x="103.4666666666667" y="160.5" />
-                  <point x="2297.9089483478297" y="933.0" />
-                  <point x="2428.4715377570556" y="933.0" />
-                  <point x="2428.4715377570556" y="2105.0" />
-                  <point x="2258.5831907720717" y="2105.0" />
-                  <point x="62.18181818181802" y="-82.5" />
+                  <point x="12.125" y="160.5" />
+                  <point x="2141.8333333333335" y="933.0" />
+                  <point x="2091.1138177414423" y="933.0" />
+                  <point x="2091.1138177414423" y="2135.0" />
+                  <point x="2286.912878787879" y="2135.0" />
+                  <point x="-124.36363636363626" y="-82.5" />
                 </edge>
                 <edge source="character.villain.Serpent" target="utils.coordinate._2Coordinate">
                   <point x="-208.1538461538462" y="-147.5" />
-                  <point x="890.0008136849506" y="3112.0" />
-                  <point x="478.6992673992672" y="3112.0" />
-                  <point x="478.6992673992672" y="392.0" />
-                  <point x="3743.331675620557" y="392.0" />
-                  <point x="-109.55000000000018" y="56.5" />
+                  <point x="1751.8470636509744" y="3002.0" />
+                  <point x="1153.2083333333335" y="3002.0" />
+                  <point x="1153.2083333333335" y="452.0" />
+                  <point x="1683.1952571353813" y="452.0" />
+                  <point x="-45.64583333333337" y="56.5" />
                 </edge>
                 <edge source="character.hero.Grandpa" target="utils.sorter.ComparingInterface">
-                  <point x="-87.69444444444434" y="-121.5" />
-                  <point x="3845.933826505463" y="3052.0" />
-                  <point x="2933.131675620557" y="3052.0" />
-                  <point x="2933.131675620557" y="2165.0" />
-                  <point x="2958.631675620557" y="2165.0" />
+                  <point x="-69.38461538461547" y="-121.5" />
+                  <point x="3383.616294420205" y="2992.0" />
+                  <point x="3331.7012303288548" y="2992.0" />
+                  <point x="3331.7012303288548" y="2376.0" />
+                  <point x="3113.8213539941653" y="2376.0" />
+                  <point x="3113.8213539941653" y="2115.0" />
+                  <point x="3037.7588539941653" y="2115.0" />
                   <point x="31.0" y="199.5" />
                 </edge>
                 <edge source="character.villain.Serpent" target="character.villain.Subs.Minion">
-                  <point x="-138.7692307692305" y="-147.5" />
-                  <point x="959.3854290695663" y="3092.0" />
-                  <point x="589.6992673992672" y="3092.0" />
-                  <point x="589.6992673992672" y="1413.0" />
-                  <point x="757.6992673992672" y="1413.0" />
-                  <point x="89.5" y="69.5" />
+                  <point x="-173.46153846153845" y="-147.5" />
+                  <point x="1786.5393713432823" y="2992.0" />
+                  <point x="1517.233941406753" y="2992.0" />
+                  <point x="1517.233941406753" y="1413.0" />
+                  <point x="1253.2083333333335" y="1413.0" />
+                  <point x="-89.5" y="69.5" />
                 </edge>
-                <edge source="character.hero.Huluwas.Qiwa" target="character.hero.Huluwa">
-                  <point x="-123.75" y="-69.5" />
-                  <point x="5610.54846878402" y="2777.0" />
-                  <point x="4536.79846878402" y="2777.0" />
-                  <point x="82.5" y="95.5" />
+                <edge source="character.hero.Huluwa" target="utils.HLW_SENIORITY">
+                  <point x="146.66666666666652" y="-95.5" />
+                  <point x="4039.1980608795957" y="2476.0" />
+                  <point x="4577.951230328855" y="2476.0" />
+                  <point x="4577.951230328855" y="2145.0" />
+                  <point x="4813.696353994165" y="2145.0" />
+                  <point x="0.0" y="82.5" />
                 </edge>
                 <edge source="character.Subordinate" target="utils.coordinate._2Coordinate">
                   <point x="-99.75" y="-43.5" />
-                  <point x="979.9492673992672" y="853.0" />
-                  <point x="1058.3789214538874" y="853.0" />
-                  <point x="1058.3789214538874" y="422.0" />
-                  <point x="3774.631675620557" y="422.0" />
-                  <point x="-78.25" y="56.5" />
-                </edge>
-                <edge source="character.hero.Huluwa" target="utils.HLW_SENIORITY">
-                  <point x="110.0" y="-95.5" />
-                  <point x="4564.29846878402" y="2426.0" />
-                  <point x="4110.677598363116" y="2426.0" />
-                  <point x="4110.677598363116" y="2125.0" />
-                  <point x="4420.566487252005" y="2125.0" />
-                  <point x="-52.11111111111131" y="82.5" />
+                  <point x="1648.9583333333335" y="843.0" />
+                  <point x="1640.858941406753" y="843.0" />
+                  <point x="1640.858941406753" y="482.0" />
+                  <point x="1722.3202571353813" y="482.0" />
+                  <point x="-6.520833333333371" y="56.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="utils.COORD">
-                  <point x="259.76470588235316" y="-82.5" />
-                  <point x="4306.14297683226" y="3517.0" />
-                  <point x="7438.54846878402" y="3517.0" />
-                  <point x="7438.54846878402" y="189.0" />
-                  <point x="7370.541487252004" y="189.0" />
-                  <point x="25.199999999999818" y="30.5" />
+                  <point x="-259.76470588235316" y="-82.5" />
+                  <point x="1587.4862039224674" y="3407.0" />
+                  <point x="0.0" y="3407.0" />
+                  <point x="0.0" y="209.0" />
+                  <point x="1600.1910904687147" y="209.0" />
+                  <point x="-50.40000000000009" y="30.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="platform.plate.PlateLayoutManipModule">
-                  <point x="97.41176470588198" y="-82.5" />
-                  <point x="4143.790035655789" y="3467.0" />
-                  <point x="6951.691487252005" y="3467.0" />
-                  <point x="6951.691487252005" y="3112.0" />
-                  <point x="6974.340135450687" y="3112.0" />
+                  <point x="-64.94117647058829" y="-82.5" />
+                  <point x="1782.3097333342323" y="3347.0" />
+                  <point x="515.233941406753" y="3347.0" />
+                  <point x="515.233941406753" y="3002.0" />
+                  <point x="582.25" y="3002.0" />
                   <point x="85.25" y="82.5" />
                 </edge>
                 <edge source="character.Subordinate" target="character.Beings">
                   <point x="33.25" y="-43.5" />
-                  <point x="1112.9492673992672" y="873.0" />
-                  <point x="2039.242281681163" y="873.0" />
-                  <point x="-155.20000000000005" y="160.5" />
+                  <point x="1781.9583333333335" y="883.0" />
+                  <point x="2020.5833333333335" y="883.0" />
+                  <point x="-109.125" y="160.5" />
                 </edge>
                 <edge source="character.villain.Serpent" target="utils.layout.Layout">
-                  <point x="138.7692307692305" y="-147.5" />
-                  <point x="1236.9238906080272" y="3092.0" />
-                  <point x="1310.399267399267" y="3092.0" />
-                  <point x="1310.399267399267" y="2476.0" />
-                  <point x="2082.4013725902537" y="2476.0" />
-                  <point x="-114.0" y="82.5" />
-                </edge>
-                <edge source="character.hero.Grandpa" target="character.hero.Huluwas.Sanwa">
-                  <point x="87.69444444444434" y="-121.5" />
-                  <point x="4021.3227153943517" y="3062.0" />
-                  <point x="4964.177598363116" y="3062.0" />
-                  <point x="0.0" y="69.5" />
+                  <point x="34.69230769230762" y="-147.5" />
+                  <point x="1994.6932174971282" y="2952.0" />
+                  <point x="2198.276515151515" y="2952.0" />
+                  <point x="2198.276515151515" y="2406.0" />
+                  <point x="2373.276515151515" y="2406.0" />
+                  <point x="-38.0" y="82.5" />
                 </edge>
                 <edge source="utils.layout.Layout" target="platform.PlatformMapModule">
-                  <point x="-93.27272727272702" y="-82.5" />
-                  <point x="2103.1286453175267" y="2115.0" />
-                  <point x="1978.942281681163" y="2115.0" />
-                  <point x="1978.942281681163" y="1606.0" />
-                  <point x="1689.1776394026056" y="1606.0" />
-                  <point x="128.4000000000001" y="56.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Dawa" target="utils.HLW_COLOR">
-                  <point x="41.25" y="-69.5" />
-                  <point x="6475.54846878402" y="2807.0" />
-                  <point x="6470.381675620557" y="2807.0" />
-                  <point x="6470.381675620557" y="2045.0" />
-                  <point x="5122.899820585339" y="2045.0" />
-                  <point x="186.22222222222263" y="82.5" />
+                  <point x="93.27272727272725" y="-82.5" />
+                  <point x="2504.5492424242425" y="2115.0" />
+                  <point x="2551.108941406753" y="2115.0" />
+                  <point x="2551.108941406753" y="1606.0" />
+                  <point x="3112.6338539941657" y="1606.0" />
+                  <point x="-128.39999999999998" y="56.5" />
                 </edge>
                 <edge source="utils.coordinate._2Coordinate" target="utils.coordinate.Coordinate">
-                  <point x="-78.25" y="-56.5" />
-                  <point x="3774.631675620557" y="159.0" />
-                  <point x="1752.6768596032407" y="159.0" />
-                  <point x="136.28571428571422" y="69.5" />
+                  <point x="78.25" y="-56.5" />
+                  <point x="1807.0910904687148" y="189.0" />
+                  <point x="3121.54051604314" y="189.0" />
+                  <point x="-136.28571428571428" y="69.5" />
                 </edge>
                 <edge source="character.villain.Serpent" target="utils.layout.LayoutBrief">
-                  <point x="34.69230769230762" y="-147.5" />
-                  <point x="1132.8469675311044" y="3062.0" />
-                  <point x="1277.399267399267" y="3062.0" />
-                  <point x="1277.399267399267" y="2165.0" />
-                  <point x="1428.8026394026056" y="2165.0" />
+                  <point x="173.46153846153857" y="-147.5" />
+                  <point x="2133.4624482663594" y="2992.0" />
+                  <point x="2800.931999559624" y="2992.0" />
+                  <point x="2800.931999559624" y="2466.0" />
+                  <point x="3287.2637303288548" y="2466.0" />
+                  <point x="3287.2637303288548" y="2145.0" />
+                  <point x="3317.658853994166" y="2145.0" />
                   <point x="-28.59999999999991" y="17.5" />
                 </edge>
                 <edge source="character.hero.SenioritySorting" target="utils.sorter.ComparingInterface">
-                  <point x="-97.66666666666652" y="-95.5" />
-                  <point x="3532.010931696449" y="2085.0" />
-                  <point x="3082.631675620557" y="2085.0" />
-                  <point x="155.0" y="199.5" />
+                  <point x="-97.66666666666669" y="-95.5" />
+                  <point x="3875.0296873274983" y="2085.0" />
+                  <point x="3223.7588539941653" y="2085.0" />
+                  <point x="217.0" y="199.5" />
                 </edge>
                 <edge source="character.hero.Grandpa" target="character.Representative">
-                  <point x="-212.97222222222217" y="-121.5" />
-                  <point x="3720.6560487276847" y="3102.0" />
-                  <point x="1739.4492673992672" y="3102.0" />
+                  <point x="-173.46153846153857" y="-121.5" />
+                  <point x="3279.5393713432823" y="2962.0" />
+                  <point x="3186.4512303288548" y="2962.0" />
                   <point x="112.75" y="69.5" />
                 </edge>
                 <edge source="character.villain.Serpent" target="utils.sorter.Sorter">
-                  <point x="208.1538461538462" y="-147.5" />
-                  <point x="1306.308505992643" y="3112.0" />
-                  <point x="1862.6992673992672" y="3112.0" />
+                  <point x="104.0769230769231" y="-147.5" />
+                  <point x="2064.0778328817437" y="2972.0" />
+                  <point x="2555.431999559624" y="2972.0" />
+                  <point x="2555.431999559624" y="2727.0" />
+                  <point x="2506.306999559624" y="2727.0" />
                   <point x="-54.625" y="82.5" />
                 </edge>
                 <edge source="character.hero.Grandpa" target="utils.coordinate._2Coordinate">
-                  <point x="212.97222222222263" y="-121.5" />
-                  <point x="4146.60049317213" y="3112.0" />
-                  <point x="6609.79846878402" y="3112.0" />
-                  <point x="6609.79846878402" y="432.0" />
-                  <point x="3920.6983422872236" y="432.0" />
-                  <point x="67.8166666666666" y="56.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Wuwa" target="utils.HLW_SENIORITY">
-                  <point x="-41.25" y="-69.5" />
-                  <point x="6043.04846878402" y="2807.0" />
-                  <point x="6109.381675620557" y="2807.0" />
-                  <point x="6109.381675620557" y="2075.0" />
-                  <point x="4629.010931696449" y="2075.0" />
-                  <point x="156.33333333333303" y="82.5" />
+                  <point x="208.1538461538462" y="-121.5" />
+                  <point x="3661.154755958667" y="3002.0" />
+                  <point x="5079.821353994165" y="3002.0" />
+                  <point x="5079.821353994165" y="412.0" />
+                  <point x="1826.6535904687148" y="412.0" />
+                  <point x="97.81249999999989" y="56.5" />
                 </edge>
                 <edge source="utils.sorter.Sorter" target="utils.sorter.ComparingInterface">
-                  <point x="145.66666666666652" y="-82.5" />
-                  <point x="2062.9909340659337" y="2506.0" />
-                  <point x="2377.9013725902537" y="2506.0" />
-                  <point x="2377.9013725902537" y="2165.0" />
-                  <point x="2834.631675620557" y="2165.0" />
-                  <point x="-93.0" y="199.5" />
+                  <point x="145.66666666666663" y="-82.5" />
+                  <point x="2706.5986662262903" y="2446.0" />
+                  <point x="2797.6884098048204" y="2446.0" />
+                  <point x="2797.6884098048204" y="2125.0" />
+                  <point x="2851.7588539941653" y="2125.0" />
+                  <point x="-155.0" y="199.5" />
                 </edge>
                 <edge source="character.villain.Subs.Minion" target="utils.coordinate._2Coordinate">
                   <point x="-89.5" y="-69.5" />
-                  <point x="578.6992673992672" y="402.0" />
-                  <point x="3753.76500895389" y="402.0" />
-                  <point x="-99.11666666666679" y="56.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Sanwa" target="utils.HLW_SENIORITY">
-                  <point x="-41.25" y="-69.5" />
-                  <point x="4922.927598363116" y="2797.0" />
-                  <point x="4629.79846878402" y="2797.0" />
-                  <point x="4629.79846878402" y="2125.0" />
-                  <point x="4472.677598363116" y="2125.0" />
-                  <point x="0.0" y="82.5" />
+                  <point x="1253.2083333333335" y="462.0" />
+                  <point x="1696.236923802048" y="462.0" />
+                  <point x="-32.60416666666674" y="56.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="utils.position.Position">
-                  <point x="-194.82352941176487" y="-82.5" />
-                  <point x="3851.554741538142" y="3497.0" />
-                  <point x="448.2761904761901" y="3497.0" />
-                  <point x="448.2761904761901" y="1413.0" />
-                  <point x="342.6428571428569" y="1413.0" />
-                  <point x="40.19999999999982" y="30.5" />
+                  <point x="194.82352941176464" y="-82.5" />
+                  <point x="2042.0744392165852" y="3387.0" />
+                  <point x="5110.244430917242" y="3387.0" />
+                  <point x="5110.244430917242" y="1423.0" />
+                  <point x="5215.877764250576" y="1423.0" />
+                  <point x="-40.19999999999982" y="30.5" />
                 </edge>
                 <edge source="character.Beings" target="utils.coordinate._2Coordinate">
-                  <point x="97.0" y="-160.5" />
-                  <point x="2291.442281681163" y="442.0" />
-                  <point x="3795.4983422872237" y="442.0" />
-                  <point x="-57.38333333333321" y="56.5" />
+                  <point x="-97.0" y="-160.5" />
+                  <point x="2032.7083333333335" y="472.0" />
+                  <point x="1748.4035904687148" y="472.0" />
+                  <point x="19.562499999999886" y="56.5" />
                 </edge>
-                <edge source="character.villain.Serpent" target="character.Beings">
-                  <point x="-69.38461538461524" y="-147.5" />
-                  <point x="1028.7700444541815" y="3032.0" />
-                  <point x="1223.1992673992672" y="3032.0" />
-                  <point x="1223.1992673992672" y="893.0" />
-                  <point x="2090.9756150144963" y="893.0" />
-                  <point x="-103.4666666666667" y="160.5" />
+                <edge source="utils.layout.Layout" target="utils.coordinate.Coordinate">
+                  <point x="62.181818181818244" y="-82.5" />
+                  <point x="2473.4583333333335" y="2105.0" />
+                  <point x="2540.108941406753" y="2105.0" />
+                  <point x="2540.108941406753" y="209.0" />
+                  <point x="3212.397658900283" y="209.0" />
+                  <point x="-45.428571428571445" y="69.5" />
                 </edge>
                 <edge source="character.villain.Subs.Scorpion" target="character.Subordinate">
                   <point x="69.0" y="-56.5" />
-                  <point x="1074.1992673992672" y="1194.0" />
-                  <point x="1079.6992673992672" y="1194.0" />
                   <point x="0.0" y="43.5" />
                 </edge>
-                <edge source="utils.layout.Layout" target="utils.coordinate.Coordinate">
-                  <point x="-62.18181818181802" y="-82.5" />
-                  <point x="2134.2195544084357" y="2105.0" />
-                  <point x="1989.942281681163" y="2105.0" />
-                  <point x="1989.942281681163" y="179.0" />
-                  <point x="1661.8197167460978" y="179.0" />
-                  <point x="45.42857142857133" y="69.5" />
+                <edge source="character.villain.Serpent" target="character.Beings">
+                  <point x="0.0" y="-147.5" />
+                  <point x="1960.0009098048206" y="2992.0" />
+                  <point x="1914.2083333333335" y="2992.0" />
+                  <point x="1914.2083333333335" y="923.0" />
+                  <point x="2117.5833333333335" y="923.0" />
+                  <point x="-12.125" y="160.5" />
                 </edge>
                 <edge source="platform.plate.PlateLayoutManipModule" target="utils.coordinate._2Coordinate">
-                  <point x="-28.41666666666697" y="-82.5" />
-                  <point x="6860.67346878402" y="2777.0" />
-                  <point x="7008.603897842779" y="2777.0" />
-                  <point x="7008.603897842779" y="422.0" />
-                  <point x="3931.131675620557" y="422.0" />
-                  <point x="78.25" y="56.5" />
+                  <point x="-85.25" y="-82.5" />
+                  <point x="411.75" y="2727.0" />
+                  <point x="418.8901914067528" y="2727.0" />
+                  <point x="418.8901914067528" y="422.0" />
+                  <point x="1644.0702571353813" y="422.0" />
+                  <point x="-84.77083333333337" y="56.5" />
+                </edge>
+                <edge source="character.hero.Huluwa" target="character.hero.SenioritySorting">
+                  <point x="2.8421709430404007E-14" y="-95.5" />
+                  <point x="3892.531394212929" y="2476.0" />
+                  <point x="3899.4463539941653" y="2476.0" />
+                  <point x="-73.25" y="95.5" />
                 </edge>
                 <edge source="character.villain.Subs.Scorpion" target="utils.coordinate._2Coordinate">
                   <point x="-69.0" y="-56.5" />
-                  <point x="936.1992673992672" y="412.0" />
-                  <point x="3764.1983422872236" y="412.0" />
-                  <point x="-88.6833333333334" y="56.5" />
-                </edge>
-                <edge source="character.hero.Huluwa" target="character.hero.SenioritySorting">
-                  <point x="-73.33333333333303" y="-95.5" />
-                  <point x="4380.965135450688" y="2476.0" />
-                  <point x="3556.427598363116" y="2476.0" />
-                  <point x="-73.25" y="95.5" />
+                  <point x="1610.7083333333335" y="1214.0" />
+                  <point x="1605.2083333333335" y="1214.0" />
+                  <point x="1605.2083333333335" y="472.0" />
+                  <point x="1709.2785904687148" y="472.0" />
+                  <point x="-19.5625" y="56.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="platform.plate.PlateMapModule">
-                  <point x="-227.294117647059" y="-82.5" />
-                  <point x="3819.084153302848" y="3507.0" />
-                  <point x="192.32619047619028" y="3507.0" />
-                  <point x="192.32619047619028" y="2165.0" />
-                  <point x="341.8261904761903" y="2165.0" />
+                  <point x="259.7647058823529" y="-82.5" />
+                  <point x="2107.0156156871735" y="3407.0" />
+                  <point x="5335.793822843823" y="3407.0" />
+                  <point x="5335.793822843823" y="2145.0" />
+                  <point x="5361.494430917242" y="2145.0" />
                   <point x="80.25" y="56.5" />
                 </edge>
-                <edge source="character.hero.Huluwas.Wuwa" target="utils.HLW_COLOR">
-                  <point x="41.25" y="-69.5" />
-                  <point x="6125.54846878402" y="2807.0" />
-                  <point x="6120.381675620557" y="2807.0" />
-                  <point x="6120.381675620557" y="2065.0" />
-                  <point x="5076.344265029783" y="2065.0" />
-                  <point x="139.66666666666697" y="82.5" />
-                </edge>
                 <edge source="platform.plate.PlateMapModule" target="platform.PlatformMapModule">
-                  <point x="142.66666666666663" y="-56.5" />
-                  <point x="404.2428571428568" y="1606.0" />
-                  <point x="1432.3776394026054" y="1606.0" />
-                  <point x="-128.4000000000001" y="56.5" />
+                  <point x="-142.66666666666663" y="-56.5" />
+                  <point x="5138.577764250576" y="1596.0" />
+                  <point x="3369.4338539941655" y="1596.0" />
+                  <point x="128.4000000000001" y="56.5" />
                 </edge>
                 <edge source="platform.plate.PlateLayoutManipModule" target="utils.layout.Layout">
-                  <point x="-142.08333333333303" y="-82.5" />
-                  <point x="6747.006802117354" y="2807.0" />
-                  <point x="6646.603897842779" y="2807.0" />
-                  <point x="6646.603897842779" y="2406.0" />
-                  <point x="2310.4013725902537" y="2406.0" />
-                  <point x="114.0" y="82.5" />
+                  <point x="85.25" y="-82.5" />
+                  <point x="582.25" y="2727.0" />
+                  <point x="567.5425764714873" y="2727.0" />
+                  <point x="567.5425764714873" y="2376.0" />
+                  <point x="2259.276515151515" y="2376.0" />
+                  <point x="-152.0" y="82.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="character.villain.Serpent">
-                  <point x="-97.41176470588243" y="-82.5" />
-                  <point x="3948.9665062440245" y="3467.0" />
-                  <point x="1210.9046598387968" y="3467.0" />
+                  <point x="32.470588235294144" y="-82.5" />
+                  <point x="1879.7214980401147" y="3337.0" />
+                  <point x="2072.7509098048204" y="3337.0" />
                   <point x="112.75" y="147.5" />
                 </edge>
                 <edge source="character.Representative" target="utils.layout.LayoutBrief">
-                  <point x="-169.125" y="-69.5" />
-                  <point x="1457.5742673992672" y="2807.0" />
-                  <point x="1474.8421598387968" y="2807.0" />
-                  <point x="1474.8421598387968" y="2165.0" />
-                  <point x="1457.4026394026055" y="2165.0" />
+                  <point x="169.125" y="-69.5" />
+                  <point x="3242.8262303288548" y="2727.0" />
+                  <point x="3249.3262303288548" y="2727.0" />
+                  <point x="3249.3262303288548" y="2476.0" />
+                  <point x="3337.4588539941656" y="2476.0" />
+                  <point x="3337.4588539941656" y="2145.0" />
+                  <point x="3346.2588539941653" y="2145.0" />
                   <point x="0.0" y="17.5" />
                 </edge>
-                <edge source="character.hero.Grandpa" target="character.hero.Huluwas.Siwa">
-                  <point x="12.527777777777828" y="-121.5" />
-                  <point x="3946.1560487276847" y="3012.0" />
-                  <point x="3457.5484687840203" y="3012.0" />
-                  <point x="0.0" y="69.5" />
-                </edge>
                 <edge source="platform.plate.PlateMapModule" target="utils.coordinate.Coordinate">
-                  <point x="-142.66666666666652" y="-56.5" />
-                  <point x="118.90952380952376" y="1606.0" />
-                  <point x="0.0" y="1606.0" />
-                  <point x="0.0" y="159.0" />
-                  <point x="1480.1054310318123" y="159.0" />
-                  <point x="-136.28571428571422" y="69.5" />
+                  <point x="142.66666666666697" y="-56.5" />
+                  <point x="5423.911097583909" y="1616.0" />
+                  <point x="5529.720013320013" y="1616.0" />
+                  <point x="5529.720013320013" y="169.0" />
+                  <point x="3394.1119446145685" y="169.0" />
+                  <point x="136.28571428571422" y="69.5" />
                 </edge>
                 <edge source="character.Representative" target="utils.sorter.Sorter">
-                  <point x="169.125" y="-69.5" />
-                  <point x="1795.8242673992672" y="2807.0" />
-                  <point x="1753.4492673992672" y="2807.0" />
-                  <point x="-163.875" y="82.5" />
+                  <point x="-169.125" y="-69.5" />
+                  <point x="2904.5762303288548" y="2727.0" />
+                  <point x="2724.806999559624" y="2727.0" />
+                  <point x="163.875" y="82.5" />
+                </edge>
+                <edge source="character.hero.Huluwas" target="character.hero.Huluwa">
+                  <point x="-62.25" y="-17.5" />
+                  <point x="4869.2124125874125" y="2727.0" />
+                  <point x="4016.281394212929" y="2727.0" />
+                  <point x="123.75" y="95.5" />
                 </edge>
                 <edge source="character.hero.ColorSorting" target="character.hero.Huluwa">
                   <point x="73.25" y="95.5" />
-                  <point x="4015.927598363116" y="2446.0" />
-                  <point x="4490.965135450688" y="2446.0" />
-                  <point x="36.66666666666697" y="-95.5" />
+                  <point x="3732.9463539941653" y="2446.0" />
+                  <point x="3855.8647275462627" y="2446.0" />
+                  <point x="-36.666666666666515" y="-95.5" />
                 </edge>
                 <edge source="utils.coordinate._2RelaCoordinate" target="utils.coordinate.RelaCoordinate">
                   <point x="61.75" y="-56.5" />
                   <point x="0.0" y="69.5" />
                 </edge>
-                <edge source="character.hero.Huluwas.Dawa" target="utils.HLW_SENIORITY">
-                  <point x="-41.25" y="-69.5" />
-                  <point x="6393.04846878402" y="2807.0" />
-                  <point x="6459.381675620557" y="2807.0" />
-                  <point x="6459.381675620557" y="2055.0" />
-                  <point x="4681.12204280756" y="2055.0" />
-                  <point x="208.44444444444434" y="82.5" />
-                </edge>
                 <edge source="character.hero.ColorSorting" target="utils.sorter.ComparingInterface">
-                  <point x="-97.66666666666652" y="-95.5" />
-                  <point x="3845.010931696449" y="2075.0" />
-                  <point x="3144.631675620557" y="2075.0" />
-                  <point x="217.0" y="199.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Qiwa" target="utils.HLW_COLOR">
-                  <point x="41.25" y="-69.5" />
-                  <point x="5775.54846878402" y="2807.0" />
-                  <point x="5770.381675620557" y="2807.0" />
-                  <point x="5770.381675620557" y="2085.0" />
-                  <point x="5029.788709474227" y="2085.0" />
-                  <point x="93.11111111111131" y="82.5" />
+                  <point x="-97.66666666666669" y="-95.5" />
+                  <point x="3562.0296873274983" y="2095.0" />
+                  <point x="3161.7588539941653" y="2095.0" />
+                  <point x="155.0" y="199.5" />
                 </edge>
                 <edge source="platform.plate.PlateMapModule" target="utils.coordinate._2Coordinate">
-                  <point x="-35.666666666666515" y="-56.5" />
-                  <point x="225.90952380952376" y="1596.0" />
-                  <point x="191.44285714285706" y="1596.0" />
-                  <point x="191.44285714285706" y="362.0" />
-                  <point x="3712.0316756205566" y="362.0" />
-                  <point x="-140.8499999999999" y="56.5" />
+                  <point x="71.33333333333348" y="-56.5" />
+                  <point x="5352.577764250576" y="1616.0" />
+                  <point x="5378.077764250576" y="1616.0" />
+                  <point x="5378.077764250576" y="372.0" />
+                  <point x="1878.8202571353813" y="372.0" />
+                  <point x="149.97916666666652" y="56.5" />
                 </edge>
                 <edge source="character.villain.Serpent" target="character.villain.Subs.Scorpion">
-                  <point x="-104.07692307692287" y="-147.5" />
-                  <point x="994.0777367618739" y="3112.0" />
-                  <point x="1005.1992673992672" y="3112.0" />
+                  <point x="-104.0769230769231" y="-147.5" />
+                  <point x="1855.9239867278975" y="2972.0" />
+                  <point x="1539.233941406753" y="2972.0" />
+                  <point x="1539.233941406753" y="1413.0" />
+                  <point x="1679.7083333333335" y="1413.0" />
                   <point x="0.0" y="56.5" />
                 </edge>
-                <edge source="character.hero.Huluwas.Sanwa" target="utils.HLW_COLOR">
-                  <point x="41.25" y="-69.5" />
-                  <point x="5005.427598363116" y="2797.0" />
-                  <point x="5093.79846878402" y="2797.0" />
-                  <point x="5093.79846878402" y="2165.0" />
-                  <point x="4936.677598363116" y="2165.0" />
+                <edge source="character.hero.Huluwa" target="utils.HLW_COLOR">
+                  <point x="110.0" y="-95.5" />
+                  <point x="4002.531394212929" y="2466.0" />
+                  <point x="4340.451230328855" y="2466.0" />
+                  <point x="4340.451230328855" y="2125.0" />
+                  <point x="4349.696353994166" y="2125.0" />
                   <point x="0.0" y="82.5" />
                 </edge>
-                <edge source="character.hero.Huluwa" target="utils.HLW_COLOR">
-                  <point x="146.66666666666697" y="-95.5" />
-                  <point x="4600.965135450688" y="2416.0" />
-                  <point x="4457.253270949907" y="2416.0" />
-                  <point x="4457.253270949907" y="2165.0" />
-                  <point x="4890.12204280756" y="2165.0" />
-                  <point x="-46.55555555555566" y="82.5" />
-                </edge>
                 <edge source="character.Beings" target="utils.position.BasePosition">
-                  <point x="51.733333333333576" y="160.5" />
-                  <point x="2246.1756150144965" y="943.0" />
-                  <point x="2249.9715377570556" y="943.0" />
+                  <point x="84.875" y="160.5" />
+                  <point x="2214.5833333333335" y="943.0" />
+                  <point x="2269.6138177414423" y="943.0" />
                   <point x="0.0" y="-95.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="utils.layout.LayoutBrief">
-                  <point x="-162.35294117647072" y="-82.5" />
-                  <point x="3884.025329773436" y="3487.0" />
-                  <point x="459.2761904761901" y="3487.0" />
-                  <point x="459.2761904761901" y="2506.0" />
-                  <point x="489.6992673992672" y="2506.0" />
-                  <point x="489.6992673992672" y="2155.0" />
-                  <point x="1400.2026394026052" y="2155.0" />
-                  <point x="-57.20000000000027" y="17.5" />
+                  <point x="162.3529411764705" y="-82.5" />
+                  <point x="2009.603850981291" y="3377.0" />
+                  <point x="5099.244430917242" y="3377.0" />
+                  <point x="5099.244430917242" y="2055.0" />
+                  <point x="3403.4588539941656" y="2055.0" />
+                  <point x="57.200000000000045" y="17.5" />
                 </edge>
                 <edge source="character.hero.Grandpa" target="character.hero.Huluwa">
-                  <point x="-12.527777777777828" y="-121.5" />
-                  <point x="3921.100493172129" y="3022.0" />
-                  <point x="3282.0484687840203" y="3022.0" />
-                  <point x="3282.0484687840203" y="2787.0" />
-                  <point x="4338.79846878402" y="2787.0" />
-                  <point x="-115.5" y="95.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Siwa" target="utils.HLW_SENIORITY">
-                  <point x="-41.25" y="-69.5" />
-                  <point x="3416.2984687840203" y="2767.0" />
-                  <point x="3342.381675620557" y="2767.0" />
-                  <point x="3342.381675620557" y="2095.0" />
-                  <point x="4264.233153918672" y="2095.0" />
-                  <point x="-208.44444444444434" y="82.5" />
+                  <point x="34.69230769230762" y="-121.5" />
+                  <point x="3487.693217497128" y="2952.0" />
+                  <point x="3808.5009098048204" y="2952.0" />
+                  <point x="3808.5009098048204" y="2727.0" />
+                  <point x="3768.781394212929" y="2727.0" />
+                  <point x="-123.75" y="95.5" />
                 </edge>
                 <edge source="utils.layout.Layout" target="utils.coordinate._2Coordinate">
-                  <point x="93.27272727272748" y="-82.5" />
-                  <point x="2289.674099862981" y="2115.0" />
-                  <point x="2486.192281681163" y="2115.0" />
-                  <point x="2486.192281681163" y="452.0" />
-                  <point x="3805.931675620557" y="452.0" />
-                  <point x="-46.94999999999982" y="56.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Liuwa" target="utils.HLW_SENIORITY">
-                  <point x="-41.25" y="-69.5" />
-                  <point x="5343.04846878402" y="2807.0" />
-                  <point x="5409.381675620557" y="2807.0" />
-                  <point x="5409.381675620557" y="2115.0" />
-                  <point x="4524.788709474227" y="2115.0" />
-                  <point x="52.11111111111131" y="82.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Siwa" target="utils.HLW_COLOR">
-                  <point x="41.25" y="-69.5" />
-                  <point x="3498.7984687840203" y="2757.0" />
-                  <point x="3353.381675620557" y="2757.0" />
-                  <point x="3353.381675620557" y="2506.0" />
-                  <point x="3450.677598363116" y="2506.0" />
-                  <point x="3450.677598363116" y="2135.0" />
-                  <point x="4750.455376140893" y="2135.0" />
-                  <point x="-186.22222222222263" y="82.5" />
+                  <point x="0.0" y="-82.5" />
+                  <point x="2411.276515151515" y="2085.0" />
+                  <point x="2448.1138177414423" y="2085.0" />
+                  <point x="2448.1138177414423" y="452.0" />
+                  <point x="1774.486923802048" y="452.0" />
+                  <point x="45.64583333333326" y="56.5" />
                 </edge>
                 <edge source="character.hero.Grandpa" target="utils.layout.LayoutBrief">
-                  <point x="-162.86111111111086" y="-121.5" />
-                  <point x="3770.767159838796" y="3082.0" />
-                  <point x="2146.3242673992672" y="3082.0" />
-                  <point x="2146.3242673992672" y="2416.0" />
-                  <point x="1831.6590377570558" y="2416.0" />
-                  <point x="1831.6590377570558" y="2165.0" />
-                  <point x="1486.0026394026054" y="2165.0" />
+                  <point x="-34.69230769230762" y="-121.5" />
+                  <point x="3418.3086021125127" y="2932.0" />
+                  <point x="3469.6963539941653" y="2932.0" />
+                  <point x="3469.6963539941653" y="2145.0" />
+                  <point x="3374.8588539941657" y="2145.0" />
                   <point x="28.59999999999991" y="17.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Sanwa" target="utils.coordinate._2Coordinate">
-                  <point x="123.75" y="-69.5" />
-                  <point x="5087.927598363116" y="2807.0" />
-                  <point x="5300.878270949907" y="2807.0" />
-                  <point x="5300.878270949907" y="482.0" />
-                  <point x="3868.5316756205566" y="482.0" />
-                  <point x="15.650000000000091" y="56.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Liuwa" target="utils.HLW_COLOR">
-                  <point x="41.25" y="-69.5" />
-                  <point x="5425.54846878402" y="2807.0" />
-                  <point x="5420.381675620557" y="2807.0" />
-                  <point x="5420.381675620557" y="2105.0" />
-                  <point x="4983.233153918672" y="2105.0" />
-                  <point x="46.55555555555566" y="82.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Erwa" target="character.hero.Huluwa">
-                  <point x="123.75" y="-69.5" />
-                  <point x="4204.177598363116" y="2807.0" />
-                  <point x="4404.79846878402" y="2807.0" />
-                  <point x="-49.5" y="95.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Wuwa" target="utils.coordinate._2Coordinate">
-                  <point x="123.75" y="-69.5" />
-                  <point x="6208.04846878402" y="2807.0" />
-                  <point x="6222.9614777864435" y="2807.0" />
-                  <point x="6222.9614777864435" y="452.0" />
-                  <point x="3899.831675620557" y="452.0" />
-                  <point x="46.94999999999982" y="56.5" />
                 </edge>
                 <edge source="character.Representative" target="utils.sorter.ComparingInterface">
                   <point x="56.375" y="-69.5" />
-                  <point x="1683.0742673992672" y="2807.0" />
-                  <point x="1581.1546598387968" y="2807.0" />
-                  <point x="1581.1546598387968" y="2456.0" />
-                  <point x="2009.0680392569202" y="2456.0" />
-                  <point x="2009.0680392569202" y="2155.0" />
-                  <point x="2772.631675620557" y="2155.0" />
-                  <point x="-155.0" y="199.5" />
+                  <point x="3130.0762303288548" y="2727.0" />
+                  <point x="3084.0762303288548" y="2727.0" />
+                  <point x="3084.0762303288548" y="2125.0" />
+                  <point x="2975.7588539941653" y="2125.0" />
+                  <point x="-31.0" y="199.5" />
                 </edge>
                 <edge source="character.hero.Grandpa" target="character.Beings">
-                  <point x="-62.63888888888869" y="-121.5" />
-                  <point x="3870.9893820610187" y="3042.0" />
-                  <point x="3186.131675620557" y="3042.0" />
-                  <point x="3186.131675620557" y="913.0" />
-                  <point x="2349.642281681163" y="913.0" />
-                  <point x="155.19999999999982" y="160.5" />
+                  <point x="0.0" y="-121.5" />
+                  <point x="3453.0009098048204" y="2942.0" />
+                  <point x="3491.6963539941653" y="2942.0" />
+                  <point x="3491.6963539941653" y="913.0" />
+                  <point x="2287.3333333333335" y="913.0" />
+                  <point x="157.625" y="160.5" />
                 </edge>
                 <edge source="platform.plate.PlateMapModule" target="utils.position.Position">
                   <point x="0.0" y="-56.5" />
-                  <point x="261.5761904761903" y="1586.0" />
-                  <point x="212.24285714285725" y="1586.0" />
-                  <point x="212.24285714285725" y="1403.0" />
-                  <point x="222.04285714285697" y="1403.0" />
-                  <point x="-80.40000000000009" y="30.5" />
+                  <point x="5281.244430917242" y="1596.0" />
+                  <point x="5330.577764250576" y="1596.0" />
+                  <point x="5330.577764250576" y="1423.0" />
+                  <point x="5336.477764250576" y="1423.0" />
+                  <point x="80.40000000000009" y="30.5" />
                 </edge>
                 <edge source="utils.sorter.BubbleSort" target="utils.layout.Layout">
-                  <point x="-87.40000000000009" y="-82.5" />
-                  <point x="2502.367033341999" y="2807.0" />
-                  <point x="2450.0181657537173" y="2807.0" />
-                  <point x="2450.0181657537173" y="2476.0" />
-                  <point x="2272.4013725902537" y="2476.0" />
-                  <point x="76.0" y="82.5" />
+                  <point x="0.0" y="-82.5" />
+                  <point x="913.2083333333335" y="2727.0" />
+                  <point x="956.9339414067529" y="2727.0" />
+                  <point x="956.9339414067529" y="2396.0" />
+                  <point x="2335.276515151515" y="2396.0" />
+                  <point x="-76.0" y="82.5" />
                 </edge>
                 <edge source="character.hero.ColorSorting" target="utils.HLW_COLOR">
-                  <point x="97.66666666666652" y="-95.5" />
-                  <point x="4040.344265029782" y="2145.0" />
-                  <point x="4797.010931696449" y="2145.0" />
-                  <point x="-139.66666666666697" y="82.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Dawa" target="utils.coordinate._2Coordinate">
-                  <point x="123.75" y="-69.5" />
-                  <point x="6558.04846878402" y="2807.0" />
-                  <point x="6508.585931696449" y="2807.0" />
-                  <point x="6508.585931696449" y="442.0" />
-                  <point x="3910.26500895389" y="442.0" />
-                  <point x="57.38333333333321" y="56.5" />
+                  <point x="97.66666666666663" y="-95.5" />
+                  <point x="3757.363020660832" y="2125.0" />
+                  <point x="4210.029687327499" y="2125.0" />
+                  <point x="-139.66666666666663" y="82.5" />
                 </edge>
                 <edge source="platform.plate.PlateSettings" target="utils.coordinate._2Coordinate">
-                  <point x="-68.25" y="-69.5" />
-                  <point x="7190.29846878402" y="382.0" />
-                  <point x="3972.8650089538905" y="382.0" />
-                  <point x="119.98333333333358" y="56.5" />
+                  <point x="68.25" y="-69.5" />
+                  <point x="215.25" y="382.0" />
+                  <point x="1591.9035904687148" y="382.0" />
+                  <point x="-136.9375" y="56.5" />
                 </edge>
                 <edge source="platform.plate.PlateLayoutManipModule" target="utils.layout.LayoutManip">
-                  <point x="-85.25" y="-82.5" />
-                  <point x="6803.840135450687" y="2807.0" />
-                  <point x="6827.603897842779" y="2807.0" />
+                  <point x="142.08333333333326" y="-82.5" />
+                  <point x="639.0833333333333" y="2727.0" />
+                  <point x="759.5425764714873" y="2727.0" />
                   <point x="0.0" y="82.5" />
                 </edge>
-                <edge source="character.hero.Huluwas.Qiwa" target="utils.HLW_SENIORITY">
-                  <point x="-41.25" y="-69.5" />
-                  <point x="5693.04846878402" y="2807.0" />
-                  <point x="5759.381675620557" y="2807.0" />
-                  <point x="5759.381675620557" y="2095.0" />
-                  <point x="4576.899820585339" y="2095.0" />
-                  <point x="104.22222222222263" y="82.5" />
+                <edge source="character.hero.Huluwa" target="character.hero.ColorSorting">
+                  <point x="-73.33333333333329" y="-95.5" />
+                  <point x="3819.1980608795957" y="2456.0" />
+                  <point x="3586.4463539941653" y="2456.0" />
+                  <point x="-73.25" y="95.5" />
                 </edge>
                 <edge source="platform.plate.Plate" target="platform.plate.PlateSettings">
-                  <point x="162.35294117647027" y="-82.5" />
-                  <point x="4208.731212126377" y="3487.0" />
-                  <point x="7355.816487252005" y="3487.0" />
-                  <point x="7355.816487252005" y="933.0" />
-                  <point x="7258.54846878402" y="933.0" />
+                  <point x="-227.294117647059" y="-82.5" />
+                  <point x="1619.9567921577616" y="3397.0" />
+                  <point x="147.0" y="3397.0" />
                   <point x="0.0" y="69.5" />
                 </edge>
-                <edge source="character.hero.Huluwa" target="character.hero.ColorSorting">
-                  <point x="0.0" y="-95.5" />
-                  <point x="4454.29846878402" y="2456.0" />
-                  <point x="3869.427598363116" y="2456.0" />
-                  <point x="-73.25" y="95.5" />
+                <edge source="character.hero.Huluwas" target="utils.HLW_COLOR">
+                  <point x="-20.75" y="-17.5" />
+                  <point x="4910.7124125874125" y="2717.0" />
+                  <point x="4702.90639421293" y="2717.0" />
+                  <point x="4702.90639421293" y="2065.0" />
+                  <point x="4489.363020660832" y="2065.0" />
+                  <point x="139.66666666666652" y="82.5" />
                 </edge>
                 <edge source="character.villain.Subs.Minion" target="character.Subordinate">
                   <point x="89.5" y="-69.5" />
-                  <point x="757.6992673992672" y="1194.0" />
-                  <point x="991.0326007326007" y="1194.0" />
-                  <point x="-88.66666666666663" y="43.5" />
+                  <point x="1432.2083333333335" y="1224.0" />
+                  <point x="1660.0416666666667" y="1224.0" />
+                  <point x="-88.66666666666669" y="43.5" />
                 </edge>
                 <edge source="character.hero.Grandpa" target="utils.layout.Layout">
-                  <point x="-112.75" y="-121.5" />
-                  <point x="3820.8782709499073" y="3062.0" />
-                  <point x="2360.767033341999" y="3062.0" />
-                  <point x="2360.767033341999" y="2486.0" />
-                  <point x="2234.4013725902537" y="2486.0" />
-                  <point x="38.0" y="82.5" />
-                </edge>
-                <edge source="character.hero.Grandpa" target="character.hero.Huluwas.Qiwa">
-                  <point x="137.80555555555566" y="-121.5" />
-                  <point x="4071.433826505463" y="3082.0" />
-                  <point x="5734.29846878402" y="3082.0" />
-                  <point x="0.0" y="69.5" />
+                  <point x="-138.76923076923072" y="-121.5" />
+                  <point x="3314.23167903559" y="3002.0" />
+                  <point x="3309.7012303288548" y="3002.0" />
+                  <point x="3309.7012303288548" y="2396.0" />
+                  <point x="2525.276515151515" y="2396.0" />
+                  <point x="114.0" y="82.5" />
                 </edge>
                 <edge source="utils.coordinate._2Coordinate" target="utils.COORD">
-                  <point x="78.25" y="-56.5" />
-                  <point x="3931.131675620557" y="199.0" />
-                  <point x="7320.1414872520045" y="199.0" />
-                  <point x="-25.199999999999818" y="30.5" />
+                  <point x="-78.25" y="-56.5" />
+                  <point x="0.0" y="30.5" />
                 </edge>
                 <edge source="character.hero.SenioritySorting" target="character.hero.Huluwa">
                   <point x="73.25" y="95.5" />
-                  <point x="3702.927598363116" y="2466.0" />
-                  <point x="4417.631802117354" y="2466.0" />
-                  <point x="-36.66666666666697" y="-95.5" />
+                  <point x="4045.9463539941653" y="2446.0" />
+                  <point x="3929.1980608795957" y="2446.0" />
+                  <point x="36.66666666666674" y="-95.5" />
                 </edge>
                 <edge source="platform.PlatformMapModule" target="utils.coordinate.Coordinate">
-                  <point x="80.25" y="-56.5" />
-                  <point x="1641.0276394026055" y="179.0" />
-                  <point x="1616.3911453175265" y="179.0" />
+                  <point x="-80.25" y="-56.5" />
+                  <point x="3160.783853994166" y="219.0" />
+                  <point x="3257.8262303288548" y="219.0" />
                   <point x="0.0" y="69.5" />
                 </edge>
                 <edge source="utils.sorter.BubbleSort" target="character.Beings">
-                  <point x="87.40000000000009" y="-82.5" />
-                  <point x="2677.1670333419993" y="2807.0" />
-                  <point x="2669.131675620557" y="2807.0" />
-                  <point x="2669.131675620557" y="923.0" />
-                  <point x="2323.7756150144965" y="923.0" />
-                  <point x="129.33333333333348" y="160.5" />
+                  <point x="-174.79999999999995" y="-82.5" />
+                  <point x="738.4083333333335" y="2717.0" />
+                  <point x="556.5425764714873" y="2717.0" />
+                  <point x="556.5425764714873" y="853.0" />
+                  <point x="1947.8333333333335" y="853.0" />
+                  <point x="-181.875" y="160.5" />
                 </edge>
                 <edge source="character.hero.Grandpa" target="utils.sorter.Sorter">
-                  <point x="-187.91666666666652" y="-121.5" />
-                  <point x="3745.7116042832404" y="3092.0" />
-                  <point x="1873.6992673992672" y="3092.0" />
-                  <point x="1873.6992673992672" y="2807.0" />
-                  <point x="1971.9492673992672" y="2807.0" />
+                  <point x="-208.1538461538462" y="-121.5" />
+                  <point x="3244.8470636509746" y="2972.0" />
+                  <point x="2566.431999559624" y="2972.0" />
+                  <point x="2566.431999559624" y="2727.0" />
+                  <point x="2615.556999559624" y="2727.0" />
                   <point x="54.625" y="82.5" />
                 </edge>
                 <edge source="character.villain.Serpent" target="character.Representative">
-                  <point x="173.46153846153857" y="-147.5" />
-                  <point x="1271.6161983003353" y="3102.0" />
-                  <point x="1513.9492673992672" y="3102.0" />
+                  <point x="208.1538461538462" y="-147.5" />
+                  <point x="2168.154755958667" y="3002.0" />
+                  <point x="2960.9512303288548" y="3002.0" />
                   <point x="-112.75" y="69.5" />
-                </edge>
-                <edge source="character.hero.Huluwas.Erwa" target="utils.coordinate._2Coordinate">
-                  <point x="-123.75" y="-69.5" />
-                  <point x="3956.677598363116" y="2747.0" />
-                  <point x="3439.677598363116" y="2747.0" />
-                  <point x="3439.677598363116" y="492.0" />
-                  <point x="3847.66500895389" y="492.0" />
-                  <point x="-5.216666666666697" y="56.5" />
                 </edge>
                 <edge source="utils.layout.LayoutManip" target="utils.layout.Layout">
                   <point x="0.0" y="-82.5" />
-                  <point x="6827.603897842779" y="2396.0" />
-                  <point x="2348.4013725902537" y="2396.0" />
-                  <point x="152.0" y="82.5" />
+                  <point x="759.5425764714873" y="2386.0" />
+                  <point x="2297.276515151515" y="2386.0" />
+                  <point x="-114.0" y="82.5" />
+                </edge>
+                <edge source="character.hero.Grandpa" target="character.hero.Huluwas">
+                  <point x="173.46153846153857" y="-121.5" />
+                  <point x="3626.4624482663594" y="2992.0" />
+                  <point x="4931.4624125874125" y="2992.0" />
+                  <point x="0.0" y="17.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="5984.0" y="809.9999999999998" />
-              <SelectedNodes />
+              <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="424.99999999999994" y="2531.0" />
+              <SelectedNodes>
+                <node>utils.sorter.BubbleSort</node>
+              </SelectedNodes>
               <Categories>
                 <Category>Methods</Category>
               </Categories>
@@ -1074,6 +831,7 @@
       <find>PlatformBrowser</find>
       <find>PlateBrowser</find>
       <find>PlateMapModule</find>
+      <find>MapModule</find>
     </findStrings>
     <replaceStrings>
       <replace>BasePosition</replace>
@@ -1134,8 +892,6 @@
         <option value="$PROJECT_DIR$/杨一江-151220145/character/hero/Huluwa.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/sorter/BubbleSort.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/character/Representative.java" />
-        <option value="$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java" />
-        <option value="$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/PlatformSetting.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/PlatformBrowser.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/coordinate/Coordinate.java" />
@@ -1143,7 +899,6 @@
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/Plate.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/PlateMapModule.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/PlatformMapModule.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/杨一江-151220145/README.md" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/layout/Layout.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/utils/layout/LayoutBrief.java" />
@@ -1151,6 +906,9 @@
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateMapModule.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateLayoutManipModule.java" />
         <option value="$PROJECT_DIR$/杨一江-151220145/platform/plate/Plate.java" />
+        <option value="$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java" />
+        <option value="$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1180,15 +938,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-2017-huluwa" type="462c0819:PsiDirectoryNode" />
+              <item name="UML" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-2017-huluwa" type="b2602c69:ProjectViewProjectNode" />
@@ -1260,6 +1020,9 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1267,7 +1030,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="SearchEverywhereHistoryKey" value="coord&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/ext/jfxrt.jar!/com/sun/prism/image/Coords.class" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/UML/Project.uml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1458,7 +1221,10 @@
       <workItem from="1507873257216" duration="19742000" />
       <workItem from="1508119921282" duration="22755000" />
       <workItem from="1508164794894" duration="759000" />
-      <workItem from="1508744020514" duration="14216000" />
+      <workItem from="1508744020514" duration="14687000" />
+      <workItem from="1508808150203" duration="3358000" />
+      <workItem from="1508941599990" duration="1487000" />
+      <workItem from="1509350352444" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="Build HLW_COLOR, HLW_SENIORITY &amp; COORD">
       <created>1507636107048</created>
@@ -1551,11 +1317,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508773009188</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Split PlateLayoutManipModule from Plate">
+      <created>1508773664221</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1508773664221</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100765000" />
+    <option name="totallyTimeSpent" value="108630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1578,26 +1351,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.50214595" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19474249" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17113733" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1644,7 +1417,8 @@
     <MESSAGE value="Finish Stage Three:&#10; 1. Layout &amp; Attachments&#10; 2. Sorter integrated into Grandpa and Serpent&#10; 3. Grandpa and Serpent control corresponding subordinates" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Split PlateMapModule from Plate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split PlateMapModule from Plate" />
+    <MESSAGE value="Split PlateLayoutManipModule from Plate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Split PlateLayoutManipModule from Plate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1661,25 +1435,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/HLW_COLOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#727#728#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/sorter/ComparingInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/Queue.java" />
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/position/Coordinate.java" />
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/COORD.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1819,16 +1574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/Beings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/sorter/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1921,7 +1666,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="179.5" y="240.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="180.0" y="240.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -1944,6 +1689,7 @@
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -1959,7 +1705,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="57.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="58.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -1983,7 +1729,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="161.5" y="540.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="162.0" y="540.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -2003,11 +1749,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="118.5" y="17.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="119.0" y="18.0" />
           <SelectedNodes />
           <Categories>
             <Category>Test dependencies</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -2028,37 +1775,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="164.5" y="583.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="165.0" y="583.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#2175#2176#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1491">
-          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2077,17 +1800,6 @@
         <state relative-caret-position="63">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="176">
-            <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -2133,14 +1845,14 @@
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/utils/layout/Layout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="189">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2150,10 +1862,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateMapModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="83" />
+        <state relative-caret-position="231">
+          <caret line="15" column="83" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateLayoutManipModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2192,7 +1916,7 @@
             <node x="4289.29846878402" y="2526.0">character.hero.Huluwa</node>
             <node x="7481.69846878402" y="219.0">utils.coordinate._2RelaCoordinate</node>
             <node x="946.6992673992672" y="1015.0">character.Subordinate</node>
-            <node x="3770.378270949907" y="3537.0">platform.plate.Plate</node>
+            <node x="3770.3782709499073" y="3537.0">platform.plate.Plate</node>
             <node x="6718.590135450687" y="2827.0">platform.plate.PlateLayoutManipModule</node>
             <node x="4727.177598363116" y="1743.0">utils.HLW_COLOR</node>
             <node x="4238.177598363116" y="1743.0">utils.HLW_SENIORITY</node>
@@ -2205,10 +1929,10 @@
           <notes />
           <edges>
             <edge source="platform.plate.Plate" target="character.Beings">
-              <point x="32.470588235294144" y="-82.5" />
+              <point x="32.47058823529369" y="-82.5" />
               <point x="4078.848859185201" y="3447.0" />
-              <point x="6621.645564509446" y="3447.0" />
-              <point x="6621.645564509446" y="903.0" />
+              <point x="6621.645564509445" y="3447.0" />
+              <point x="6621.645564509445" y="903.0" />
               <point x="2375.5089483478296" y="903.0" />
               <point x="181.0666666666666" y="160.5" />
             </edge>
@@ -2323,8 +2047,8 @@
               <point x="36.51666666666688" y="56.5" />
             </edge>
             <edge source="platform.plate.Plate" target="utils.layout.Layout">
-              <point x="-64.94117647058829" y="-82.5" />
-              <point x="3981.4370944793186" y="3457.0" />
+              <point x="-64.94117647058874" y="-82.5" />
+              <point x="3981.437094479319" y="3457.0" />
               <point x="1390.6992673992672" y="3457.0" />
               <point x="1390.6992673992672" y="2486.0" />
               <point x="2120.4013725902537" y="2486.0" />
@@ -2344,7 +2068,7 @@
             </edge>
             <edge source="character.hero.Huluwa" target="utils.coordinate._2Coordinate">
               <point x="73.33333333333303" y="-95.5" />
-              <point x="4527.631802117354" y="2436.0" />
+              <point x="4527.631802117353" y="2436.0" />
               <point x="4099.677598363116" y="2436.0" />
               <point x="4099.677598363116" y="492.0" />
               <point x="3858.098342287223" y="492.0" />
@@ -2359,7 +2083,7 @@
               <point x="-90.85714285714266" y="69.5" />
             </edge>
             <edge source="platform.plate.Plate" target="utils.coordinate._2Coordinate">
-              <point x="194.82352941176487" y="-82.5" />
+              <point x="194.8235294117644" y="-82.5" />
               <point x="4241.201800361672" y="3497.0" />
               <point x="7416.54846878402" y="3497.0" />
               <point x="7416.54846878402" y="362.0" />
@@ -2425,7 +2149,7 @@
               <point x="0.0" y="30.5" />
             </edge>
             <edge source="platform.plate.Plate" target="character.hero.Grandpa">
-              <point x="0.0" y="-82.5" />
+              <point x="-4.547473508864641E-13" y="-82.5" />
               <point x="112.75" y="121.5" />
             </edge>
             <edge source="character.hero.Huluwas.Erwa" target="utils.HLW_COLOR">
@@ -2484,7 +2208,7 @@
             </edge>
             <edge source="character.hero.Huluwa" target="utils.sorter.ComparingInterface">
               <point x="-146.66666666666697" y="-95.5" />
-              <point x="4307.631802117354" y="2496.0" />
+              <point x="4307.631802117353" y="2496.0" />
               <point x="3043.5484687840203" y="2496.0" />
               <point x="3043.5484687840203" y="2165.0" />
               <point x="3020.631675620557" y="2165.0" />
@@ -2563,15 +2287,15 @@
               <point x="-52.11111111111131" y="82.5" />
             </edge>
             <edge source="platform.plate.Plate" target="utils.COORD">
-              <point x="259.76470588235316" y="-82.5" />
-              <point x="4306.14297683226" y="3517.0" />
+              <point x="259.7647058823527" y="-82.5" />
+              <point x="4306.1429768322605" y="3517.0" />
               <point x="7438.54846878402" y="3517.0" />
               <point x="7438.54846878402" y="189.0" />
               <point x="7370.541487252004" y="189.0" />
               <point x="25.199999999999818" y="30.5" />
             </edge>
             <edge source="platform.plate.Plate" target="platform.plate.PlateLayoutManipModule">
-              <point x="97.41176470588198" y="-82.5" />
+              <point x="97.41176470588152" y="-82.5" />
               <point x="4143.790035655789" y="3467.0" />
               <point x="6951.691487252005" y="3467.0" />
               <point x="6951.691487252005" y="3112.0" />
@@ -2609,8 +2333,8 @@
             <edge source="character.hero.Huluwas.Dawa" target="utils.HLW_COLOR">
               <point x="41.25" y="-69.5" />
               <point x="6475.54846878402" y="2807.0" />
-              <point x="6470.381675620557" y="2807.0" />
-              <point x="6470.381675620557" y="2045.0" />
+              <point x="6470.381675620556" y="2807.0" />
+              <point x="6470.381675620556" y="2045.0" />
               <point x="5122.899820585339" y="2045.0" />
               <point x="186.22222222222263" y="82.5" />
             </edge>
@@ -2657,8 +2381,8 @@
             <edge source="character.hero.Huluwas.Wuwa" target="utils.HLW_SENIORITY">
               <point x="-41.25" y="-69.5" />
               <point x="6043.04846878402" y="2807.0" />
-              <point x="6109.381675620557" y="2807.0" />
-              <point x="6109.381675620557" y="2075.0" />
+              <point x="6109.381675620556" y="2807.0" />
+              <point x="6109.381675620556" y="2075.0" />
               <point x="4629.010931696449" y="2075.0" />
               <point x="156.33333333333303" y="82.5" />
             </edge>
@@ -2685,8 +2409,8 @@
               <point x="0.0" y="82.5" />
             </edge>
             <edge source="platform.plate.Plate" target="utils.position.Position">
-              <point x="-194.82352941176487" y="-82.5" />
-              <point x="3851.554741538142" y="3497.0" />
+              <point x="-194.82352941176532" y="-82.5" />
+              <point x="3851.5547415381425" y="3497.0" />
               <point x="448.2761904761901" y="3497.0" />
               <point x="448.2761904761901" y="1413.0" />
               <point x="342.6428571428569" y="1413.0" />
@@ -2736,12 +2460,12 @@
             </edge>
             <edge source="character.hero.Huluwa" target="character.hero.SenioritySorting">
               <point x="-73.33333333333303" y="-95.5" />
-              <point x="4380.965135450688" y="2476.0" />
+              <point x="4380.965135450687" y="2476.0" />
               <point x="3556.427598363116" y="2476.0" />
               <point x="-73.25" y="95.5" />
             </edge>
             <edge source="platform.plate.Plate" target="platform.plate.PlateMapModule">
-              <point x="-227.294117647059" y="-82.5" />
+              <point x="-227.29411764705947" y="-82.5" />
               <point x="3819.084153302848" y="3507.0" />
               <point x="192.32619047619028" y="3507.0" />
               <point x="192.32619047619028" y="2165.0" />
@@ -2751,8 +2475,8 @@
             <edge source="character.hero.Huluwas.Wuwa" target="utils.HLW_COLOR">
               <point x="41.25" y="-69.5" />
               <point x="6125.54846878402" y="2807.0" />
-              <point x="6120.381675620557" y="2807.0" />
-              <point x="6120.381675620557" y="2065.0" />
+              <point x="6120.381675620556" y="2807.0" />
+              <point x="6120.381675620556" y="2065.0" />
               <point x="5076.344265029783" y="2065.0" />
               <point x="139.66666666666697" y="82.5" />
             </edge>
@@ -2771,7 +2495,7 @@
               <point x="114.0" y="82.5" />
             </edge>
             <edge source="platform.plate.Plate" target="character.villain.Serpent">
-              <point x="-97.41176470588243" y="-82.5" />
+              <point x="-97.41176470588289" y="-82.5" />
               <point x="3948.9665062440245" y="3467.0" />
               <point x="1210.9046598387968" y="3467.0" />
               <point x="112.75" y="147.5" />
@@ -2807,7 +2531,7 @@
             <edge source="character.hero.ColorSorting" target="character.hero.Huluwa">
               <point x="73.25" y="95.5" />
               <point x="4015.927598363116" y="2446.0" />
-              <point x="4490.965135450688" y="2446.0" />
+              <point x="4490.965135450687" y="2446.0" />
               <point x="36.66666666666697" y="-95.5" />
             </edge>
             <edge source="utils.coordinate._2RelaCoordinate" target="utils.coordinate.RelaCoordinate">
@@ -2817,8 +2541,8 @@
             <edge source="character.hero.Huluwas.Dawa" target="utils.HLW_SENIORITY">
               <point x="-41.25" y="-69.5" />
               <point x="6393.04846878402" y="2807.0" />
-              <point x="6459.381675620557" y="2807.0" />
-              <point x="6459.381675620557" y="2055.0" />
+              <point x="6459.381675620556" y="2807.0" />
+              <point x="6459.381675620556" y="2055.0" />
               <point x="4681.12204280756" y="2055.0" />
               <point x="208.44444444444434" y="82.5" />
             </edge>
@@ -2831,8 +2555,8 @@
             <edge source="character.hero.Huluwas.Qiwa" target="utils.HLW_COLOR">
               <point x="41.25" y="-69.5" />
               <point x="5775.54846878402" y="2807.0" />
-              <point x="5770.381675620557" y="2807.0" />
-              <point x="5770.381675620557" y="2085.0" />
+              <point x="5770.381675620556" y="2807.0" />
+              <point x="5770.381675620556" y="2085.0" />
               <point x="5029.788709474227" y="2085.0" />
               <point x="93.11111111111131" y="82.5" />
             </edge>
@@ -2860,7 +2584,7 @@
             </edge>
             <edge source="character.hero.Huluwa" target="utils.HLW_COLOR">
               <point x="146.66666666666697" y="-95.5" />
-              <point x="4600.965135450688" y="2416.0" />
+              <point x="4600.965135450687" y="2416.0" />
               <point x="4457.253270949907" y="2416.0" />
               <point x="4457.253270949907" y="2165.0" />
               <point x="4890.12204280756" y="2165.0" />
@@ -2873,7 +2597,7 @@
               <point x="0.0" y="-95.5" />
             </edge>
             <edge source="platform.plate.Plate" target="utils.layout.LayoutBrief">
-              <point x="-162.35294117647072" y="-82.5" />
+              <point x="-162.35294117647118" y="-82.5" />
               <point x="3884.025329773436" y="3487.0" />
               <point x="459.2761904761901" y="3487.0" />
               <point x="459.2761904761901" y="2506.0" />
@@ -2909,8 +2633,8 @@
             <edge source="character.hero.Huluwas.Liuwa" target="utils.HLW_SENIORITY">
               <point x="-41.25" y="-69.5" />
               <point x="5343.04846878402" y="2807.0" />
-              <point x="5409.381675620557" y="2807.0" />
-              <point x="5409.381675620557" y="2115.0" />
+              <point x="5409.381675620556" y="2807.0" />
+              <point x="5409.381675620556" y="2115.0" />
               <point x="4524.788709474227" y="2115.0" />
               <point x="52.11111111111131" y="82.5" />
             </edge>
@@ -2945,8 +2669,8 @@
             <edge source="character.hero.Huluwas.Liuwa" target="utils.HLW_COLOR">
               <point x="41.25" y="-69.5" />
               <point x="5425.54846878402" y="2807.0" />
-              <point x="5420.381675620557" y="2807.0" />
-              <point x="5420.381675620557" y="2105.0" />
+              <point x="5420.381675620556" y="2807.0" />
+              <point x="5420.381675620556" y="2105.0" />
               <point x="4983.233153918672" y="2105.0" />
               <point x="46.55555555555566" y="82.5" />
             </edge>
@@ -3027,14 +2751,14 @@
             <edge source="character.hero.Huluwas.Qiwa" target="utils.HLW_SENIORITY">
               <point x="-41.25" y="-69.5" />
               <point x="5693.04846878402" y="2807.0" />
-              <point x="5759.381675620557" y="2807.0" />
-              <point x="5759.381675620557" y="2095.0" />
+              <point x="5759.381675620556" y="2807.0" />
+              <point x="5759.381675620556" y="2095.0" />
               <point x="4576.899820585339" y="2095.0" />
               <point x="104.22222222222263" y="82.5" />
             </edge>
             <edge source="platform.plate.Plate" target="platform.plate.PlateSettings">
-              <point x="162.35294117647027" y="-82.5" />
-              <point x="4208.731212126377" y="3487.0" />
+              <point x="162.3529411764698" y="-82.5" />
+              <point x="4208.731212126378" y="3487.0" />
               <point x="7355.816487252005" y="3487.0" />
               <point x="7355.816487252005" y="933.0" />
               <point x="7258.54846878402" y="933.0" />
@@ -3075,7 +2799,7 @@
             <edge source="character.hero.SenioritySorting" target="character.hero.Huluwa">
               <point x="73.25" y="95.5" />
               <point x="3702.927598363116" y="2466.0" />
-              <point x="4417.631802117354" y="2466.0" />
+              <point x="4417.631802117353" y="2466.0" />
               <point x="-36.66666666666697" y="-95.5" />
             </edge>
             <edge source="platform.PlatformMapModule" target="utils.coordinate.Coordinate">
@@ -3121,7 +2845,73 @@
               <point x="152.0" y="82.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="5984.0" y="809.9999999999998" />
+          <settings layout="Hierarchic Group" zoom="0.9" x="4418.0" y="2617.0" />
+          <SelectedNodes>
+            <node>character.hero.Huluwas.Liuwa</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/hero/Grandpa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="66" column="24" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/villain/Serpent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="75" column="24" lean-forward="false" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/character/Beings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/Plate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/utils.layout">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>utils.layout</OriginalElement>
+          <nodes>
+            <node x="" y="">utils.layout.LayoutManip</node>
+            <node x="" y="">utils.layout.LayoutBrief</node>
+            <node x="" y="">utils.layout.Layout</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="78.5" y="178.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -3131,27 +2921,792 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/PlateLayoutManipModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-          </folding>
+    <entry file="uml://JAVA/platform.plate">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>platform.plate</OriginalElement>
+          <nodes>
+            <node x="" y="">platform.plate.Plate</node>
+            <node x="" y="">platform.plate.PlateLayoutManipModule</node>
+            <node x="" y="">platform.plate.PlateMapModule</node>
+            <node x="" y="">platform.plate.PlateSettings</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="142.5" y="218.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/杨一江-151220145/platform/plate/Plate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/UML/Project.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="2342.431999559624" y="2509.0">utils.sorter.Sorter</node>
+            <node x="3080.533853994166" y="1443.0">platform.PlatformMapModule</node>
+            <node x="1587.5910904687148" y="39.0">utils.COORD</node>
+            <node x="1163.7083333333335" y="1244.0">character.villain.Subs.Minion</node>
+            <node x="2101.6138177414423" y="963.0">utils.position.BasePosition</node>
+            <node x="10.5" y="593.0">platform.plate.PlateSettings</node>
+            <node x="694.7083333333335" y="2747.0">utils.sorter.BubbleSort</node>
+            <node x="3513.1963539941653" y="2165.0">character.hero.ColorSorting</node>
+            <node x="1572.3410904687148" y="239.0">utils.coordinate._2Coordinate</node>
+            <node x="5561.702156177156" y="0.0">utils.coordinate.RelaCoordinate</node>
+            <node x="3274.7588539941653" y="1818.0">utils.layout.LayoutBrief</node>
+            <node x="2758.7588539941653" y="1636.0">utils.sorter.ComparingInterface</node>
+            <node x="2240.276515151515" y="2178.0">utils.layout.Layout</node>
+            <node x="1541.7083333333335" y="1257.0">character.villain.Subs.Scorpion</node>
+            <node x="3826.1963539941653" y="2165.0">character.hero.SenioritySorting</node>
+            <node x="589.0425764714873" y="2509.0">utils.layout.LayoutManip</node>
+            <node x="3098.8262303288548" y="0.0">utils.coordinate.Coordinate</node>
+            <node x="1935.7083333333335" y="502.0">character.Beings</node>
+            <node x="2848.2012303288548" y="2760.0">character.Representative</node>
+            <node x="3227.5009098048204" y="3048.0">character.hero.Grandpa</node>
+            <node x="4848.4624125874125" y="2812.0">character.hero.Huluwas</node>
+            <node x="3727.531394212929" y="2496.0">character.hero.Huluwa</node>
+            <node x="1615.7083333333335" y="1015.0">character.Subordinate</node>
+            <node x="5550.952156177156" y="239.0">utils.coordinate._2RelaCoordinate</node>
+            <node x="1571.2509098048206" y="3427.0">platform.plate.Plate</node>
+            <node x="326.5" y="2747.0">platform.plate.PlateLayoutManipModule</node>
+            <node x="4579.196353994165" y="1753.0">utils.HLW_SENIORITY</node>
+            <node x="4140.196353994166" y="1753.0">utils.HLW_COLOR</node>
+            <node x="5120.744430917242" y="1779.0">platform.plate.PlateMapModule</node>
+            <node x="1734.5009098048206" y="3022.0">character.villain.Serpent</node>
+            <node x="5155.577764250576" y="1283.0">utils.position.Position</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="character.villain.Serpent" target="utils.sorter.ComparingInterface">
+              <point x="138.76923076923072" y="-147.5" />
+              <point x="2098.7701405740513" y="2982.0" />
+              <point x="2789.931999559624" y="2982.0" />
+              <point x="2789.931999559624" y="2456.0" />
+              <point x="2907.244499559624" y="2456.0" />
+              <point x="2907.244499559624" y="2125.0" />
+              <point x="2913.7588539941653" y="2125.0" />
+              <point x="-93.0" y="199.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="character.Beings">
+              <point x="-32.470588235294144" y="-82.5" />
+              <point x="1814.7803215695264" y="3337.0" />
+              <point x="1142.2083333333335" y="3337.0" />
+              <point x="1142.2083333333335" y="863.0" />
+              <point x="1972.0833333333335" y="863.0" />
+              <point x="-157.625" y="160.5" />
+            </edge>
+            <edge source="utils.layout.Layout" target="utils.layout.LayoutBrief">
+              <point x="155.4545454545455" y="-82.5" />
+              <point x="2566.731060606061" y="2135.0" />
+              <point x="3289.0588539941655" y="2135.0" />
+              <point x="-57.200000000000045" y="17.5" />
+            </edge>
+            <edge source="character.hero.Huluwa" target="character.Subordinate">
+              <point x="-110.0" y="-95.5" />
+              <point x="3782.531394212929" y="2466.0" />
+              <point x="3502.6963539941653" y="2466.0" />
+              <point x="3502.6963539941653" y="2105.0" />
+              <point x="3831.295745920746" y="2105.0" />
+              <point x="3831.295745920746" y="1204.0" />
+              <point x="1837.3750000000002" y="1204.0" />
+              <point x="88.66666666666674" y="43.5" />
+            </edge>
+            <edge source="utils.position.BasePosition" target="character.Beings">
+              <point x="-134.39999999999998" y="-95.5" />
+              <point x="2135.213817741442" y="943.0" />
+              <point x="2166.0833333333335" y="943.0" />
+              <point x="36.375" y="160.5" />
+            </edge>
+            <edge source="character.hero.ColorSorting" target="utils.position.BasePosition">
+              <point x="0.0" y="-95.5" />
+              <point x="3659.6963539941653" y="2115.0" />
+              <point x="3883.500909804821" y="2115.0" />
+              <point x="3883.500909804821" y="1194.0" />
+              <point x="2332.6138177414423" y="1194.0" />
+              <point x="63.0" y="95.5" />
+            </edge>
+            <edge source="utils.position.BasePosition" target="utils.coordinate.Coordinate">
+              <point x="134.39999999999998" y="-95.5" />
+              <point x="2404.013817741442" y="943.0" />
+              <point x="2529.108941406753" y="943.0" />
+              <point x="2529.108941406753" y="199.0" />
+              <point x="3166.9690874717116" y="199.0" />
+              <point x="-90.85714285714289" y="69.5" />
+            </edge>
+            <edge source="platform.PlatformMapModule" target="utils.position.Position">
+              <point x="80.25" y="-56.5" />
+              <point x="3321.283853994166" y="1413.0" />
+              <point x="5175.677764250576" y="1413.0" />
+              <point x="-80.4" y="30.5" />
+            </edge>
+            <edge source="utils.sorter.Sorter" target="utils.layout.Layout">
+              <point x="-145.66666666666663" y="-82.5" />
+              <point x="2415.2653328929573" y="2426.0" />
+              <point x="2449.276515151515" y="2426.0" />
+              <point x="38.0" y="82.5" />
+            </edge>
+            <edge source="character.hero.SenioritySorting" target="utils.position.BasePosition">
+              <point x="0.0" y="-95.5" />
+              <point x="3972.6963539941653" y="2115.0" />
+              <point x="4045.500909804821" y="2115.0" />
+              <point x="4045.500909804821" y="1184.0" />
+              <point x="2374.6138177414423" y="1184.0" />
+              <point x="105.0" y="95.5" />
+            </edge>
+            <edge source="utils.sorter.BubbleSort" target="utils.sorter.Sorter">
+              <point x="174.79999999999995" y="-82.5" />
+              <point x="1088.0083333333334" y="2727.0" />
+              <point x="2397.056999559624" y="2727.0" />
+              <point x="-163.875" y="82.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="utils.layout.Layout">
+              <point x="64.94117647058829" y="-82.5" />
+              <point x="1912.1920862754089" y="3347.0" />
+              <point x="2837.7012303288548" y="3347.0" />
+              <point x="2837.7012303288548" y="2416.0" />
+              <point x="2487.276515151515" y="2416.0" />
+              <point x="76.0" y="82.5" />
+            </edge>
+            <edge source="utils.position.Position" target="utils.position.BasePosition">
+              <point x="-50.25" y="-30.5" />
+              <point x="5205.827764250576" y="1174.0" />
+              <point x="2416.6138177414423" y="1174.0" />
+              <point x="147.0" y="95.5" />
+            </edge>
+            <edge source="character.hero.Huluwa" target="utils.coordinate._2Coordinate">
+              <point x="73.33333333333326" y="-95.5" />
+              <point x="3965.8647275462627" y="2456.0" />
+              <point x="4129.696353994165" y="2456.0" />
+              <point x="4129.696353994165" y="432.0" />
+              <point x="1800.5702571353813" y="432.0" />
+              <point x="71.72916666666652" y="56.5" />
+            </edge>
+            <edge source="utils.layout.LayoutBrief" target="utils.coordinate.Coordinate">
+              <point x="17.875" y="-17.5" />
+              <point x="3364.1338539941653" y="1606.0" />
+              <point x="3412.033853994166" y="1606.0" />
+              <point x="3412.033853994166" y="219.0" />
+              <point x="3303.254801757426" y="219.0" />
+              <point x="45.42857142857133" y="69.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="utils.coordinate._2Coordinate">
+              <point x="-194.82352941176487" y="-82.5" />
+              <point x="1652.4273803930557" y="3387.0" />
+              <point x="294.0" y="3387.0" />
+              <point x="294.0" y="392.0" />
+              <point x="1604.9452571353816" y="392.0" />
+              <point x="-123.89583333333326" y="56.5" />
+            </edge>
+            <edge source="character.hero.Huluwas" target="utils.HLW_SENIORITY">
+              <point x="20.75" y="-17.5" />
+              <point x="4952.2124125874125" y="2727.0" />
+              <point x="4939.042576471487" y="2727.0" />
+              <point x="4939.042576471487" y="2145.0" />
+              <point x="4970.029687327498" y="2145.0" />
+              <point x="156.33333333333348" y="82.5" />
+            </edge>
+            <edge source="utils.sorter.BubbleSort" target="utils.position.BasePosition">
+              <point x="-87.40000000000009" y="-82.5" />
+              <point x="825.8083333333334" y="2707.0" />
+              <point x="578.5425764714873" y="2707.0" />
+              <point x="578.5425764714873" y="1423.0" />
+              <point x="1860.233941406753" y="1423.0" />
+              <point x="1860.233941406753" y="1224.0" />
+              <point x="2122.6138177414423" y="1224.0" />
+              <point x="-147.0" y="95.5" />
+            </edge>
+            <edge source="utils.sorter.Sorter" target="utils.position.BasePosition">
+              <point x="0.0" y="-82.5" />
+              <point x="2560.931999559624" y="2426.0" />
+              <point x="2700.858245920746" y="2426.0" />
+              <point x="2700.858245920746" y="1224.0" />
+              <point x="2290.6138177414423" y="1224.0" />
+              <point x="21.0" y="95.5" />
+            </edge>
+            <edge source="utils.layout.LayoutBrief" target="platform.PlatformMapModule">
+              <point x="-53.625" y="-17.5" />
+              <point x="3292.6338539941653" y="1616.0" />
+              <point x="3241.033853994166" y="1616.0" />
+              <point x="0.0" y="56.5" />
+            </edge>
+            <edge source="utils.coordinate._2RelaCoordinate" target="utils.COORD">
+              <point x="-61.75" y="-56.5" />
+              <point x="5612.702156177156" y="159.0" />
+              <point x="1700.991090468715" y="159.0" />
+              <point x="50.40000000000009" y="30.5" />
+            </edge>
+            <edge source="utils.sorter.BubbleSort" target="utils.sorter.ComparingInterface">
+              <point x="87.40000000000009" y="-82.5" />
+              <point x="1001.335590017125" y="2436.0" />
+              <point x="2786.6884098048204" y="2436.0" />
+              <point x="2786.6884098048204" y="2125.0" />
+              <point x="2789.7588539941653" y="2125.0" />
+              <point x="-217.0" y="199.5" />
+            </edge>
+            <edge source="platform.plate.PlateLayoutManipModule" target="utils.COORD">
+              <point x="-142.08333333333348" y="-82.5" />
+              <point x="354.9166666666665" y="2727.0" />
+              <point x="372.2756080734198" y="2727.0" />
+              <point x="372.2756080734198" y="219.0" />
+              <point x="1625.3910904687148" y="219.0" />
+              <point x="-25.200000000000045" y="30.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="character.hero.Grandpa">
+              <point x="129.88235294117658" y="-82.5" />
+              <point x="1977.1332627459972" y="3367.0" />
+              <point x="3565.7509098048204" y="3367.0" />
+              <point x="112.75" y="121.5" />
+            </edge>
+            <edge source="character.hero.SenioritySorting" target="utils.HLW_SENIORITY">
+              <point x="97.66666666666669" y="-95.5" />
+              <point x="4070.3630206608323" y="2135.0" />
+              <point x="4657.363020660832" y="2135.0" />
+              <point x="-156.33333333333334" y="82.5" />
+            </edge>
+            <edge source="utils.position.Position" target="utils.coordinate._2Coordinate">
+              <point x="50.25" y="-30.5" />
+              <point x="5306.327764250576" y="392.0" />
+              <point x="1852.736923802048" y="392.0" />
+              <point x="123.89583333333326" y="56.5" />
+            </edge>
+            <edge source="utils.layout.Layout" target="utils.position.BasePosition">
+              <point x="-31.09090909090901" y="-82.5" />
+              <point x="2380.185606060606" y="2105.0" />
+              <point x="2248.6138177414423" y="2105.0" />
+              <point x="-21.0" y="95.5" />
+            </edge>
+            <edge source="character.hero.Huluwas" target="utils.coordinate._2Coordinate">
+              <point x="62.25" y="-17.5" />
+              <point x="4993.7124125874125" y="2727.0" />
+              <point x="5058.696353994165" y="2727.0" />
+              <point x="5058.696353994165" y="422.0" />
+              <point x="1813.611923802048" y="422.0" />
+              <point x="84.77083333333326" y="56.5" />
+            </edge>
+            <edge source="character.hero.Huluwa" target="utils.sorter.ComparingInterface">
+              <point x="-146.66666666666652" y="-95.5" />
+              <point x="3745.8647275462627" y="2476.0" />
+              <point x="3480.6963539941653" y="2476.0" />
+              <point x="3480.6963539941653" y="2105.0" />
+              <point x="3099.7588539941653" y="2105.0" />
+              <point x="93.0" y="199.5" />
+            </edge>
+            <edge source="platform.plate.PlateMapModule" target="utils.COORD">
+              <point x="107.0" y="-56.5" />
+              <point x="5389.077764250576" y="179.0" />
+              <point x="1675.7910904687149" y="179.0" />
+              <point x="25.200000000000045" y="30.5" />
+            </edge>
+            <edge source="character.Representative" target="character.Beings">
+              <point x="-56.375" y="-69.5" />
+              <point x="3017.3262303288548" y="2727.0" />
+              <point x="2964.8262303288548" y="2727.0" />
+              <point x="2964.8262303288548" y="2406.0" />
+              <point x="2748.2588539941653" y="2406.0" />
+              <point x="2748.2588539941653" y="923.0" />
+              <point x="2263.0833333333335" y="923.0" />
+              <point x="133.375" y="160.5" />
+            </edge>
+            <edge source="character.Beings" target="utils.layout.Layout">
+              <point x="12.125" y="160.5" />
+              <point x="2141.8333333333335" y="933.0" />
+              <point x="2091.1138177414423" y="933.0" />
+              <point x="2091.1138177414423" y="2135.0" />
+              <point x="2286.912878787879" y="2135.0" />
+              <point x="-124.36363636363626" y="-82.5" />
+            </edge>
+            <edge source="character.villain.Serpent" target="utils.coordinate._2Coordinate">
+              <point x="-208.1538461538462" y="-147.5" />
+              <point x="1751.8470636509744" y="3002.0" />
+              <point x="1153.2083333333335" y="3002.0" />
+              <point x="1153.2083333333335" y="452.0" />
+              <point x="1683.1952571353813" y="452.0" />
+              <point x="-45.64583333333337" y="56.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="utils.sorter.ComparingInterface">
+              <point x="-69.38461538461547" y="-121.5" />
+              <point x="3383.616294420205" y="2992.0" />
+              <point x="3331.7012303288548" y="2992.0" />
+              <point x="3331.7012303288548" y="2376.0" />
+              <point x="3113.8213539941653" y="2376.0" />
+              <point x="3113.8213539941653" y="2115.0" />
+              <point x="3037.7588539941653" y="2115.0" />
+              <point x="31.0" y="199.5" />
+            </edge>
+            <edge source="character.villain.Serpent" target="character.villain.Subs.Minion">
+              <point x="-173.46153846153845" y="-147.5" />
+              <point x="1786.5393713432823" y="2992.0" />
+              <point x="1517.233941406753" y="2992.0" />
+              <point x="1517.233941406753" y="1413.0" />
+              <point x="1253.2083333333335" y="1413.0" />
+              <point x="-89.5" y="69.5" />
+            </edge>
+            <edge source="character.hero.Huluwa" target="utils.HLW_SENIORITY">
+              <point x="146.66666666666652" y="-95.5" />
+              <point x="4039.1980608795957" y="2476.0" />
+              <point x="4577.951230328855" y="2476.0" />
+              <point x="4577.951230328855" y="2145.0" />
+              <point x="4813.696353994165" y="2145.0" />
+              <point x="0.0" y="82.5" />
+            </edge>
+            <edge source="character.Subordinate" target="utils.coordinate._2Coordinate">
+              <point x="-99.75" y="-43.5" />
+              <point x="1648.9583333333335" y="843.0" />
+              <point x="1640.858941406753" y="843.0" />
+              <point x="1640.858941406753" y="482.0" />
+              <point x="1722.3202571353813" y="482.0" />
+              <point x="-6.520833333333371" y="56.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="utils.COORD">
+              <point x="-259.76470588235316" y="-82.5" />
+              <point x="1587.4862039224674" y="3407.0" />
+              <point x="0.0" y="3407.0" />
+              <point x="0.0" y="209.0" />
+              <point x="1600.1910904687147" y="209.0" />
+              <point x="-50.40000000000009" y="30.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="platform.plate.PlateLayoutManipModule">
+              <point x="-64.94117647058829" y="-82.5" />
+              <point x="1782.3097333342323" y="3347.0" />
+              <point x="515.233941406753" y="3347.0" />
+              <point x="515.233941406753" y="3002.0" />
+              <point x="582.25" y="3002.0" />
+              <point x="85.25" y="82.5" />
+            </edge>
+            <edge source="character.Subordinate" target="character.Beings">
+              <point x="33.25" y="-43.5" />
+              <point x="1781.9583333333335" y="883.0" />
+              <point x="2020.5833333333335" y="883.0" />
+              <point x="-109.125" y="160.5" />
+            </edge>
+            <edge source="character.villain.Serpent" target="utils.layout.Layout">
+              <point x="34.69230769230762" y="-147.5" />
+              <point x="1994.6932174971282" y="2952.0" />
+              <point x="2198.276515151515" y="2952.0" />
+              <point x="2198.276515151515" y="2406.0" />
+              <point x="2373.276515151515" y="2406.0" />
+              <point x="-38.0" y="82.5" />
+            </edge>
+            <edge source="utils.layout.Layout" target="platform.PlatformMapModule">
+              <point x="93.27272727272725" y="-82.5" />
+              <point x="2504.5492424242425" y="2115.0" />
+              <point x="2551.108941406753" y="2115.0" />
+              <point x="2551.108941406753" y="1606.0" />
+              <point x="3112.6338539941657" y="1606.0" />
+              <point x="-128.39999999999998" y="56.5" />
+            </edge>
+            <edge source="utils.coordinate._2Coordinate" target="utils.coordinate.Coordinate">
+              <point x="78.25" y="-56.5" />
+              <point x="1807.0910904687148" y="189.0" />
+              <point x="3121.54051604314" y="189.0" />
+              <point x="-136.28571428571428" y="69.5" />
+            </edge>
+            <edge source="character.villain.Serpent" target="utils.layout.LayoutBrief">
+              <point x="173.46153846153857" y="-147.5" />
+              <point x="2133.4624482663594" y="2992.0" />
+              <point x="2800.931999559624" y="2992.0" />
+              <point x="2800.931999559624" y="2466.0" />
+              <point x="3287.2637303288548" y="2466.0" />
+              <point x="3287.2637303288548" y="2145.0" />
+              <point x="3317.658853994166" y="2145.0" />
+              <point x="-28.59999999999991" y="17.5" />
+            </edge>
+            <edge source="character.hero.SenioritySorting" target="utils.sorter.ComparingInterface">
+              <point x="-97.66666666666669" y="-95.5" />
+              <point x="3875.0296873274983" y="2085.0" />
+              <point x="3223.7588539941653" y="2085.0" />
+              <point x="217.0" y="199.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="character.Representative">
+              <point x="-173.46153846153857" y="-121.5" />
+              <point x="3279.5393713432823" y="2962.0" />
+              <point x="3186.4512303288548" y="2962.0" />
+              <point x="112.75" y="69.5" />
+            </edge>
+            <edge source="character.villain.Serpent" target="utils.sorter.Sorter">
+              <point x="104.0769230769231" y="-147.5" />
+              <point x="2064.0778328817437" y="2972.0" />
+              <point x="2555.431999559624" y="2972.0" />
+              <point x="2555.431999559624" y="2727.0" />
+              <point x="2506.306999559624" y="2727.0" />
+              <point x="-54.625" y="82.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="utils.coordinate._2Coordinate">
+              <point x="208.1538461538462" y="-121.5" />
+              <point x="3661.154755958667" y="3002.0" />
+              <point x="5079.821353994165" y="3002.0" />
+              <point x="5079.821353994165" y="412.0" />
+              <point x="1826.6535904687148" y="412.0" />
+              <point x="97.81249999999989" y="56.5" />
+            </edge>
+            <edge source="utils.sorter.Sorter" target="utils.sorter.ComparingInterface">
+              <point x="145.66666666666663" y="-82.5" />
+              <point x="2706.5986662262903" y="2446.0" />
+              <point x="2797.6884098048204" y="2446.0" />
+              <point x="2797.6884098048204" y="2125.0" />
+              <point x="2851.7588539941653" y="2125.0" />
+              <point x="-155.0" y="199.5" />
+            </edge>
+            <edge source="character.villain.Subs.Minion" target="utils.coordinate._2Coordinate">
+              <point x="-89.5" y="-69.5" />
+              <point x="1253.2083333333335" y="462.0" />
+              <point x="1696.236923802048" y="462.0" />
+              <point x="-32.60416666666674" y="56.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="utils.position.Position">
+              <point x="194.82352941176464" y="-82.5" />
+              <point x="2042.0744392165852" y="3387.0" />
+              <point x="5110.244430917242" y="3387.0" />
+              <point x="5110.244430917242" y="1423.0" />
+              <point x="5215.877764250576" y="1423.0" />
+              <point x="-40.19999999999982" y="30.5" />
+            </edge>
+            <edge source="character.Beings" target="utils.coordinate._2Coordinate">
+              <point x="-97.0" y="-160.5" />
+              <point x="2032.7083333333335" y="472.0" />
+              <point x="1748.4035904687148" y="472.0" />
+              <point x="19.562499999999886" y="56.5" />
+            </edge>
+            <edge source="utils.layout.Layout" target="utils.coordinate.Coordinate">
+              <point x="62.181818181818244" y="-82.5" />
+              <point x="2473.4583333333335" y="2105.0" />
+              <point x="2540.108941406753" y="2105.0" />
+              <point x="2540.108941406753" y="209.0" />
+              <point x="3212.397658900283" y="209.0" />
+              <point x="-45.428571428571445" y="69.5" />
+            </edge>
+            <edge source="character.villain.Subs.Scorpion" target="character.Subordinate">
+              <point x="69.0" y="-56.5" />
+              <point x="0.0" y="43.5" />
+            </edge>
+            <edge source="character.villain.Serpent" target="character.Beings">
+              <point x="0.0" y="-147.5" />
+              <point x="1960.0009098048206" y="2992.0" />
+              <point x="1914.2083333333335" y="2992.0" />
+              <point x="1914.2083333333335" y="923.0" />
+              <point x="2117.5833333333335" y="923.0" />
+              <point x="-12.125" y="160.5" />
+            </edge>
+            <edge source="platform.plate.PlateLayoutManipModule" target="utils.coordinate._2Coordinate">
+              <point x="-85.25" y="-82.5" />
+              <point x="411.75" y="2727.0" />
+              <point x="418.8901914067528" y="2727.0" />
+              <point x="418.8901914067528" y="422.0" />
+              <point x="1644.0702571353813" y="422.0" />
+              <point x="-84.77083333333337" y="56.5" />
+            </edge>
+            <edge source="character.hero.Huluwa" target="character.hero.SenioritySorting">
+              <point x="2.8421709430404007E-14" y="-95.5" />
+              <point x="3892.531394212929" y="2476.0" />
+              <point x="3899.4463539941653" y="2476.0" />
+              <point x="-73.25" y="95.5" />
+            </edge>
+            <edge source="character.villain.Subs.Scorpion" target="utils.coordinate._2Coordinate">
+              <point x="-69.0" y="-56.5" />
+              <point x="1610.7083333333335" y="1214.0" />
+              <point x="1605.2083333333335" y="1214.0" />
+              <point x="1605.2083333333335" y="472.0" />
+              <point x="1709.2785904687148" y="472.0" />
+              <point x="-19.5625" y="56.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="platform.plate.PlateMapModule">
+              <point x="259.7647058823529" y="-82.5" />
+              <point x="2107.0156156871735" y="3407.0" />
+              <point x="5335.793822843823" y="3407.0" />
+              <point x="5335.793822843823" y="2145.0" />
+              <point x="5361.494430917242" y="2145.0" />
+              <point x="80.25" y="56.5" />
+            </edge>
+            <edge source="platform.plate.PlateMapModule" target="platform.PlatformMapModule">
+              <point x="-142.66666666666663" y="-56.5" />
+              <point x="5138.577764250576" y="1596.0" />
+              <point x="3369.4338539941655" y="1596.0" />
+              <point x="128.4000000000001" y="56.5" />
+            </edge>
+            <edge source="platform.plate.PlateLayoutManipModule" target="utils.layout.Layout">
+              <point x="85.25" y="-82.5" />
+              <point x="582.25" y="2727.0" />
+              <point x="567.5425764714873" y="2727.0" />
+              <point x="567.5425764714873" y="2376.0" />
+              <point x="2259.276515151515" y="2376.0" />
+              <point x="-152.0" y="82.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="character.villain.Serpent">
+              <point x="32.470588235294144" y="-82.5" />
+              <point x="1879.7214980401147" y="3337.0" />
+              <point x="2072.7509098048204" y="3337.0" />
+              <point x="112.75" y="147.5" />
+            </edge>
+            <edge source="character.Representative" target="utils.layout.LayoutBrief">
+              <point x="169.125" y="-69.5" />
+              <point x="3242.8262303288548" y="2727.0" />
+              <point x="3249.3262303288548" y="2727.0" />
+              <point x="3249.3262303288548" y="2476.0" />
+              <point x="3337.4588539941656" y="2476.0" />
+              <point x="3337.4588539941656" y="2145.0" />
+              <point x="3346.2588539941653" y="2145.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="platform.plate.PlateMapModule" target="utils.coordinate.Coordinate">
+              <point x="142.66666666666697" y="-56.5" />
+              <point x="5423.911097583909" y="1616.0" />
+              <point x="5529.720013320013" y="1616.0" />
+              <point x="5529.720013320013" y="169.0" />
+              <point x="3394.1119446145685" y="169.0" />
+              <point x="136.28571428571422" y="69.5" />
+            </edge>
+            <edge source="character.Representative" target="utils.sorter.Sorter">
+              <point x="-169.125" y="-69.5" />
+              <point x="2904.5762303288548" y="2727.0" />
+              <point x="2724.806999559624" y="2727.0" />
+              <point x="163.875" y="82.5" />
+            </edge>
+            <edge source="character.hero.Huluwas" target="character.hero.Huluwa">
+              <point x="-62.25" y="-17.5" />
+              <point x="4869.2124125874125" y="2727.0" />
+              <point x="4016.281394212929" y="2727.0" />
+              <point x="123.75" y="95.5" />
+            </edge>
+            <edge source="character.hero.ColorSorting" target="character.hero.Huluwa">
+              <point x="73.25" y="95.5" />
+              <point x="3732.9463539941653" y="2446.0" />
+              <point x="3855.8647275462627" y="2446.0" />
+              <point x="-36.666666666666515" y="-95.5" />
+            </edge>
+            <edge source="utils.coordinate._2RelaCoordinate" target="utils.coordinate.RelaCoordinate">
+              <point x="61.75" y="-56.5" />
+              <point x="0.0" y="69.5" />
+            </edge>
+            <edge source="character.hero.ColorSorting" target="utils.sorter.ComparingInterface">
+              <point x="-97.66666666666669" y="-95.5" />
+              <point x="3562.0296873274983" y="2095.0" />
+              <point x="3161.7588539941653" y="2095.0" />
+              <point x="155.0" y="199.5" />
+            </edge>
+            <edge source="platform.plate.PlateMapModule" target="utils.coordinate._2Coordinate">
+              <point x="71.33333333333348" y="-56.5" />
+              <point x="5352.577764250576" y="1616.0" />
+              <point x="5378.077764250576" y="1616.0" />
+              <point x="5378.077764250576" y="372.0" />
+              <point x="1878.8202571353813" y="372.0" />
+              <point x="149.97916666666652" y="56.5" />
+            </edge>
+            <edge source="character.villain.Serpent" target="character.villain.Subs.Scorpion">
+              <point x="-104.0769230769231" y="-147.5" />
+              <point x="1855.9239867278975" y="2972.0" />
+              <point x="1539.233941406753" y="2972.0" />
+              <point x="1539.233941406753" y="1413.0" />
+              <point x="1679.7083333333335" y="1413.0" />
+              <point x="0.0" y="56.5" />
+            </edge>
+            <edge source="character.hero.Huluwa" target="utils.HLW_COLOR">
+              <point x="110.0" y="-95.5" />
+              <point x="4002.531394212929" y="2466.0" />
+              <point x="4340.451230328855" y="2466.0" />
+              <point x="4340.451230328855" y="2125.0" />
+              <point x="4349.696353994166" y="2125.0" />
+              <point x="0.0" y="82.5" />
+            </edge>
+            <edge source="character.Beings" target="utils.position.BasePosition">
+              <point x="84.875" y="160.5" />
+              <point x="2214.5833333333335" y="943.0" />
+              <point x="2269.6138177414423" y="943.0" />
+              <point x="0.0" y="-95.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="utils.layout.LayoutBrief">
+              <point x="162.3529411764705" y="-82.5" />
+              <point x="2009.603850981291" y="3377.0" />
+              <point x="5099.244430917242" y="3377.0" />
+              <point x="5099.244430917242" y="2055.0" />
+              <point x="3403.4588539941656" y="2055.0" />
+              <point x="57.200000000000045" y="17.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="character.hero.Huluwa">
+              <point x="34.69230769230762" y="-121.5" />
+              <point x="3487.693217497128" y="2952.0" />
+              <point x="3808.5009098048204" y="2952.0" />
+              <point x="3808.5009098048204" y="2727.0" />
+              <point x="3768.781394212929" y="2727.0" />
+              <point x="-123.75" y="95.5" />
+            </edge>
+            <edge source="utils.layout.Layout" target="utils.coordinate._2Coordinate">
+              <point x="0.0" y="-82.5" />
+              <point x="2411.276515151515" y="2085.0" />
+              <point x="2448.1138177414423" y="2085.0" />
+              <point x="2448.1138177414423" y="452.0" />
+              <point x="1774.486923802048" y="452.0" />
+              <point x="45.64583333333326" y="56.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="utils.layout.LayoutBrief">
+              <point x="-34.69230769230762" y="-121.5" />
+              <point x="3418.3086021125127" y="2932.0" />
+              <point x="3469.6963539941653" y="2932.0" />
+              <point x="3469.6963539941653" y="2145.0" />
+              <point x="3374.8588539941657" y="2145.0" />
+              <point x="28.59999999999991" y="17.5" />
+            </edge>
+            <edge source="character.Representative" target="utils.sorter.ComparingInterface">
+              <point x="56.375" y="-69.5" />
+              <point x="3130.0762303288548" y="2727.0" />
+              <point x="3084.0762303288548" y="2727.0" />
+              <point x="3084.0762303288548" y="2125.0" />
+              <point x="2975.7588539941653" y="2125.0" />
+              <point x="-31.0" y="199.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="character.Beings">
+              <point x="0.0" y="-121.5" />
+              <point x="3453.0009098048204" y="2942.0" />
+              <point x="3491.6963539941653" y="2942.0" />
+              <point x="3491.6963539941653" y="913.0" />
+              <point x="2287.3333333333335" y="913.0" />
+              <point x="157.625" y="160.5" />
+            </edge>
+            <edge source="platform.plate.PlateMapModule" target="utils.position.Position">
+              <point x="0.0" y="-56.5" />
+              <point x="5281.244430917242" y="1596.0" />
+              <point x="5330.577764250576" y="1596.0" />
+              <point x="5330.577764250576" y="1423.0" />
+              <point x="5336.477764250576" y="1423.0" />
+              <point x="80.40000000000009" y="30.5" />
+            </edge>
+            <edge source="utils.sorter.BubbleSort" target="utils.layout.Layout">
+              <point x="0.0" y="-82.5" />
+              <point x="913.2083333333335" y="2727.0" />
+              <point x="956.9339414067529" y="2727.0" />
+              <point x="956.9339414067529" y="2396.0" />
+              <point x="2335.276515151515" y="2396.0" />
+              <point x="-76.0" y="82.5" />
+            </edge>
+            <edge source="character.hero.ColorSorting" target="utils.HLW_COLOR">
+              <point x="97.66666666666663" y="-95.5" />
+              <point x="3757.363020660832" y="2125.0" />
+              <point x="4210.029687327499" y="2125.0" />
+              <point x="-139.66666666666663" y="82.5" />
+            </edge>
+            <edge source="platform.plate.PlateSettings" target="utils.coordinate._2Coordinate">
+              <point x="68.25" y="-69.5" />
+              <point x="215.25" y="382.0" />
+              <point x="1591.9035904687148" y="382.0" />
+              <point x="-136.9375" y="56.5" />
+            </edge>
+            <edge source="platform.plate.PlateLayoutManipModule" target="utils.layout.LayoutManip">
+              <point x="142.08333333333326" y="-82.5" />
+              <point x="639.0833333333333" y="2727.0" />
+              <point x="759.5425764714873" y="2727.0" />
+              <point x="0.0" y="82.5" />
+            </edge>
+            <edge source="character.hero.Huluwa" target="character.hero.ColorSorting">
+              <point x="-73.33333333333329" y="-95.5" />
+              <point x="3819.1980608795957" y="2456.0" />
+              <point x="3586.4463539941653" y="2456.0" />
+              <point x="-73.25" y="95.5" />
+            </edge>
+            <edge source="platform.plate.Plate" target="platform.plate.PlateSettings">
+              <point x="-227.294117647059" y="-82.5" />
+              <point x="1619.9567921577616" y="3397.0" />
+              <point x="147.0" y="3397.0" />
+              <point x="0.0" y="69.5" />
+            </edge>
+            <edge source="character.hero.Huluwas" target="utils.HLW_COLOR">
+              <point x="-20.75" y="-17.5" />
+              <point x="4910.7124125874125" y="2717.0" />
+              <point x="4702.90639421293" y="2717.0" />
+              <point x="4702.90639421293" y="2065.0" />
+              <point x="4489.363020660832" y="2065.0" />
+              <point x="139.66666666666652" y="82.5" />
+            </edge>
+            <edge source="character.villain.Subs.Minion" target="character.Subordinate">
+              <point x="89.5" y="-69.5" />
+              <point x="1432.2083333333335" y="1224.0" />
+              <point x="1660.0416666666667" y="1224.0" />
+              <point x="-88.66666666666669" y="43.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="utils.layout.Layout">
+              <point x="-138.76923076923072" y="-121.5" />
+              <point x="3314.23167903559" y="3002.0" />
+              <point x="3309.7012303288548" y="3002.0" />
+              <point x="3309.7012303288548" y="2396.0" />
+              <point x="2525.276515151515" y="2396.0" />
+              <point x="114.0" y="82.5" />
+            </edge>
+            <edge source="utils.coordinate._2Coordinate" target="utils.COORD">
+              <point x="-78.25" y="-56.5" />
+              <point x="0.0" y="30.5" />
+            </edge>
+            <edge source="character.hero.SenioritySorting" target="character.hero.Huluwa">
+              <point x="73.25" y="95.5" />
+              <point x="4045.9463539941653" y="2446.0" />
+              <point x="3929.1980608795957" y="2446.0" />
+              <point x="36.66666666666674" y="-95.5" />
+            </edge>
+            <edge source="platform.PlatformMapModule" target="utils.coordinate.Coordinate">
+              <point x="-80.25" y="-56.5" />
+              <point x="3160.783853994166" y="219.0" />
+              <point x="3257.8262303288548" y="219.0" />
+              <point x="0.0" y="69.5" />
+            </edge>
+            <edge source="utils.sorter.BubbleSort" target="character.Beings">
+              <point x="-174.79999999999995" y="-82.5" />
+              <point x="738.4083333333335" y="2717.0" />
+              <point x="556.5425764714873" y="2717.0" />
+              <point x="556.5425764714873" y="853.0" />
+              <point x="1947.8333333333335" y="853.0" />
+              <point x="-181.875" y="160.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="utils.sorter.Sorter">
+              <point x="-208.1538461538462" y="-121.5" />
+              <point x="3244.8470636509746" y="2972.0" />
+              <point x="2566.431999559624" y="2972.0" />
+              <point x="2566.431999559624" y="2727.0" />
+              <point x="2615.556999559624" y="2727.0" />
+              <point x="54.625" y="82.5" />
+            </edge>
+            <edge source="character.villain.Serpent" target="character.Representative">
+              <point x="208.1538461538462" y="-147.5" />
+              <point x="2168.154755958667" y="3002.0" />
+              <point x="2960.9512303288548" y="3002.0" />
+              <point x="-112.75" y="69.5" />
+            </edge>
+            <edge source="utils.layout.LayoutManip" target="utils.layout.Layout">
+              <point x="0.0" y="-82.5" />
+              <point x="759.5425764714873" y="2386.0" />
+              <point x="2297.276515151515" y="2386.0" />
+              <point x="-114.0" y="82.5" />
+            </edge>
+            <edge source="character.hero.Grandpa" target="character.hero.Huluwas">
+              <point x="173.46153846153857" y="-121.5" />
+              <point x="3626.4624482663594" y="2992.0" />
+              <point x="4931.4624125874125" y="2992.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="424.99999999999994" y="2531.0" />
+          <SelectedNodes>
+            <node>utils.sorter.BubbleSort</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-42">
+            <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
