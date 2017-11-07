@@ -32,8 +32,6 @@ public class PlateMapModule implements PlatformMapModule {
         }
     }
 
-
-
     PlateMapModule(_2Coordinate granularity, _2Coordinate start, int XNum, int YNum, Class<? extends Position> DesignatedPositionClass)
         throws MapExpansionFailure
     {

@@ -17,7 +17,7 @@ public class PositionWithBackground extends Position{
         this.backgrounds = backgrounds;
     }
 
-    public void setBackgrounds(double x, double y, BACKGROUNDS backgrounds){
+    public void setBackgrounds(BACKGROUNDS backgrounds){
         this.backgrounds = backgrounds;
     }
 
