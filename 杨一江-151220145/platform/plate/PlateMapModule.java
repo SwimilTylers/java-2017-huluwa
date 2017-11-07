@@ -11,7 +11,7 @@ public class PlateMapModule implements PlatformMapModule {
     final public _2Coordinate start;
     final public int[] size;
 
-    final private Position[][] Map;
+    final protected Position[][] Map;
 
     PlateMapModule(_2Coordinate granularity, _2Coordinate start, int XNum, int YNum){
         this.granularity = new _2Coordinate(granularity);
@@ -20,14 +20,34 @@ public class PlateMapModule implements PlatformMapModule {
         size[COORD.X.d()] = XNum;
         size[COORD.Y.d()] = YNum;
 
-        Map = new Position[YNum][XNum];
+        Map = new Position[size[COORD.Y.d()]][size[COORD.X.d()]];
 
-        for (int i = 0; i < YNum; i++) {
-            for (int j = 0; j < XNum; j++) {
+        for (int i = 0; i < size[COORD.Y.d()]; i++) {
+            for (int j = 0; j < size[COORD.X.d()]; j++) {
                 Map[i][j] = new Position(start.X() + granularity.X() * j, start.Y() + granularity.Y() * i);
             }
         }
     }
+
+    /*
+
+    PlateMapModule(_2Coordinate granularity, _2Coordinate start, int XNum, int YNum, Class DesignatedPositionClass){
+        this.granularity = new _2Coordinate(granularity);
+        this.start = new _2Coordinate(start);
+        size = new int[2];
+        size[COORD.X.d()] = XNum;
+        size[COORD.Y.d()] = YNum;
+
+        Map = new Position[size[COORD.Y.d()]][size[COORD.X.d()]];
+
+        for (int i = 0; i < size[COORD.Y.d()]; i++) {
+            for (int j = 0; j < size[COORD.X.d()]; j++) {
+                Map[i][j] = new Position(start.X() + granularity.X() * j, start.Y() + granularity.Y() * i);
+            }
+        }
+    }
+
+*/
 
     @Override
     public Position Location(Coordinate _coord){

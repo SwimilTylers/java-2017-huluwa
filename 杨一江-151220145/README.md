@@ -4,9 +4,33 @@ se. It is aimed at simulating the plots of cartoon _Huluwa_. The
 characters are: Huluwas, grandpa, minions, serpent and 
 scorpion. We will take a close look at its whole formation in this manual.
 
+The whole dependency structure of the project is illustrated [here](..//UML/Project.png). 
 If you want display the demo, please run **./platform/Plate.java**
 
-You can check Git history in my personal Github https://github.com/SwimilTylers/java-2017-huluwa
+We have apply some __new__ __features__ to our project, which is highlighted 
+by __'*'__ after the title. If you want to view the history version, 
+please check Git history in my personal Github https://github.com/SwimilTylers/java-2017-huluwa
+
+## Trinity*
+
+This time, we add a new feature in our project. In order to 
+follow the SOLID principle, we apply several modifications to our
+ our object formation. The main work is to separate the 'huge'
+ __Plate__ object. In our new revision, the __Plate__ is formed of 
+three different objects: __PlateLayoutManipModule__, __PlateMapModule__, 
+and modified __Plate__.  __PlateMapModule__ is responsible for 
+Coordination-relates, while __PlateLayoutManipModule__ for the transformation 
+of Layout. Our new __Plate__ is now free from redundant functionality and 
+focuses on Character deployment. 
+
+![Trinity](../UML/Package%20plate.png)
+
+## Scepter*
+
+Resemble to the above effort, we apply interface to standardize 
+the behavior of Superiors. Thus we employ __Representatives__. 
+With this interface, we want to decouple the application from 
+the concrete implementation of the lower layer.
 
 ## World of hierarchy
 
