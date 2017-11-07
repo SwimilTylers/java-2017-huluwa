@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="651.0" y="1037.0">utils.sorter.Sorter</node>
+    <node x="744.0" y="1722.0">platform.PlatformMapModule</node>
+    <node x="1683.0" y="2069.0">utils.COORD</node>
+    <node x="350.0" y="742.0">character.villain.Subs.Minion</node>
+    <node x="0.0" y="1722.0">utils.position.BasePosition</node>
+    <node x="1365.0" y="2069.0">platform.plate.PlateSettings</node>
+    <node x="651.0" y="1252.0">utils.sorter.BubbleSort</node>
+    <node x="313.0" y="1486.0">character.hero.ColorSorting</node>
+    <node x="383.5" y="1911.0">utils.coordinate._2Coordinate</node>
+    <node x="1519.0" y="1037.0">utils.coordinate.RelaCoordinate</node>
+    <node x="1854.0" y="2069.0">utils.layout.LayoutBrief</node>
+    <node x="55.0" y="1037.0">utils.sorter.ComparingInterface</node>
+    <node x="978.0" y="2069.0">utils.layout.Layout</node>
+    <node x="728.0" y="755.0">character.villain.Subs.Scorpion</node>
+    <node x="0.0" y="1486.0">character.hero.SenioritySorting</node>
+    <node x="1133.0" y="1037.0">utils.layout.LayoutManip</node>
+    <node x="381.0" y="1722.0">utils.coordinate.Coordinate</node>
+    <node x="600.75" y="0.0">character.Beings</node>
+    <node x="1153.0" y="91.0">character.Representative</node>
+    <node x="1153.0" y="397.0">character.hero.Grandpa</node>
+    <node x="82.0" y="957.0">character.hero.Huluwas</node>
+    <node x="0.0" y="716.0">character.hero.Huluwa</node>
+    <node x="396.0" y="475.0">character.Subordinate</node>
+    <node x="1570.0" y="1226.0">utils.coordinate._2RelaCoordinate</node>
+    <node x="1110.0" y="1722.0">platform.plate.Plate</node>
+    <node x="1133.0" y="1252.0">platform.plate.PlateLayoutManipModule</node>
+    <node x="0.0" y="2069.0">utils.HLW_SENIORITY</node>
+    <node x="514.0" y="2069.0">utils.HLW_COLOR</node>
+    <node x="744.0" y="1885.0">platform.plate.PlateMapModule</node>
+    <node x="682.0" y="371.0">character.villain.Serpent</node>
+    <node x="67.5" y="1963.0">utils.position.Position</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="character.hero.Huluwa" target="character.Subordinate">
+      <point x="0.0" y="-95.5" />
+      <point x="165.0" y="691.0" />
+      <point x="440.3333333333335" y="691.0" />
+      <point x="-88.66666666666652" y="43.5" />
+    </edge>
+    <edge source="utils.sorter.BubbleSort" target="utils.sorter.Sorter">
+      <point x="0.0" y="-82.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="utils.position.Position" target="utils.position.BasePosition">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="character.Subordinate" target="character.Beings">
+      <point x="0.0" y="-43.5" />
+      <point x="529.0" y="351.0" />
+      <point x="665.4166666666665" y="351.0" />
+      <point x="-129.33333333333348" y="160.5" />
+    </edge>
+    <edge source="utils.coordinate._2Coordinate" target="utils.coordinate.Coordinate">
+      <point x="0.0" y="-56.5" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="character.hero.SenioritySorting" target="utils.sorter.ComparingInterface">
+      <point x="0.0" y="-95.5" />
+      <point x="146.5" y="1461.0" />
+      <point x="179.0" y="1461.0" />
+      <point x="-124.0" y="199.5" />
+    </edge>
+    <edge source="character.hero.Grandpa" target="character.Representative">
+      <point x="112.75" y="-121.5" />
+      <point x="112.75" y="69.5" />
+    </edge>
+    <edge source="character.villain.Serpent" target="character.Beings">
+      <point x="-112.75" y="-147.5" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="character.villain.Subs.Scorpion" target="character.Subordinate">
+      <point x="0.0" y="-56.5" />
+      <point x="866.0" y="691.0" />
+      <point x="617.6666666666665" y="691.0" />
+      <point x="88.66666666666652" y="43.5" />
+    </edge>
+    <edge source="platform.plate.PlateMapModule" target="platform.PlatformMapModule">
+      <point x="0.0" y="-56.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="character.hero.Huluwas" target="character.hero.Huluwa">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="utils.coordinate._2RelaCoordinate" target="utils.coordinate.RelaCoordinate">
+      <point x="0.0" y="-56.5" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="character.hero.ColorSorting" target="utils.sorter.ComparingInterface">
+      <point x="0.0" y="-95.5" />
+      <point x="459.5" y="1461.0" />
+      <point x="427.0" y="1461.0" />
+      <point x="124.0" y="199.5" />
+    </edge>
+    <edge source="character.hero.Grandpa" target="character.Beings">
+      <point x="-112.75" y="-121.5" />
+      <point x="1265.75" y="341.0" />
+      <point x="924.0833333333335" y="341.0" />
+      <point x="129.33333333333348" y="160.5" />
+    </edge>
+    <edge source="platform.plate.PlateLayoutManipModule" target="utils.layout.LayoutManip">
+      <point x="0.0" y="-82.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="character.villain.Subs.Minion" target="character.Subordinate">
+      <point x="0.0" y="-69.5" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="character.villain.Serpent" target="character.Representative">
+      <point x="112.75" y="-147.5" />
+      <point x="1020.25" y="351.0" />
+      <point x="1265.75" y="351.0" />
+      <point x="-112.75" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="1289.2857142857151" y="1740.2619047619032" />
+  <SelectedNodes>
+    <node>utils.sorter.BubbleSort</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
